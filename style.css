@@ -92,7 +92,7 @@ ul {
 
 .home-section {
   overflow-x: hidden;
-  background: url(../images/header-illsutration-mobile@2x.png);
+  background-image: url(./images/header-illsutration-mobile@2x.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
