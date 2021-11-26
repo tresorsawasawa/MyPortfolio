@@ -199,7 +199,7 @@ ul {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   justify-self: center;
-  background-color: #ebf0ee;
+  background-color: #e5f0ee;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -270,7 +270,6 @@ ul {
   z-index: 2;
   width: 100%;
   height: 100%;
-  background-color: #8f8f8f;
 }
 
 .card-see {
