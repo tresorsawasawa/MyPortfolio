@@ -151,59 +151,6 @@ ul {
   margin: 0;
 }
 
-/* -- Works-sectiom ----- */
-/* .works-section {
-  margin-top: 22px;
-}
-
-/* .hide {
-  display: none;
-} */
-
-/* .works-section {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.works-section .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.works-section .container .title {
-  position: static;
-  height: 97px;
-  width: 327px;
-  left: 0;
-  top: 0;
-} */
-
-/* .works-section .container .title h1 {
-  position: absolute;
-  color: #172b4d;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 52px;
-  letter-spacing: 0;
-  text-align: center;
-  top: -30px;
-}
-
-.works-section .container .title h1::after {
-  content: "";
-  position: absolute;
-  background-color: #36b37e;
-  height: 4px;
-  width: 48px;
-  left: 139.5px;
-  top: 121px;
-  border-radius: 24px;
-} */ */
-
 .works-section {
   width: 100%;
   display: flex;
@@ -243,7 +190,7 @@ ul {
 
 .works-section .title img {
   margin: 0;
-  padding: 0;
+  padding-top: 24px;
 }
 
 .card .image {
@@ -271,6 +218,7 @@ ul {
 }
 
 .card {
+  height: 474px;
   width: 327px;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
@@ -280,7 +228,6 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 474px;
 }
 
 .card:hover {
@@ -299,8 +246,47 @@ ul {
   background-color: #8f8f8f;
 }
 
-.card .project-bg:hover {
-  background-color: transparent;
-  transition: all 0.4s ease-in-out;
-  cursor: pointer;
+.card-see {
+  background-color: #06bb70;
+  height: 48px;
+  width: 122px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.card-info {
+  background: #ffff;
+  flex: 1;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-info h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin: 16px;
+}
+
+.card-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card-buttons button {
+  color: #06bb70;
+  padding: 8px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
 }
