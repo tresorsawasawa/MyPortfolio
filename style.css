@@ -385,3 +385,40 @@ ul {
 .langag-btn .lang-body {
   display: flex;
 }
+
+/* Footer */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("./images/illustration-contact-form.svg") no-repeat;
+  background-size: 10%;
+  background-position: bottom 275px right 0;
+  width: 100%;
+}
+
+.contact-msg {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.form_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-box {
+  width: 327px;
+  height: 48px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+.form_items li {
+  margin: 24px auto;
+}
