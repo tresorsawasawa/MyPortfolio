@@ -435,14 +435,21 @@ ul {
   border-radius: 4px;
 }
 
-.email-link {
+.contact-form .email-link {
   color: #42526e;
   font-size: 20px;
   line-height: 32px;
   text-align: center;
   margin-bottom: 147px;
+  box-sizing: border-box;
 }
 
 ::placeholder {
   color: #091e42;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 2px solid #091e42;
+  outline: none;
 }
