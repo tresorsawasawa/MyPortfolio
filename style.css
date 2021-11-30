@@ -67,6 +67,10 @@ ul {
   display: block;
 }
 
+.humburger:hover {
+  cursor: pointer;
+}
+
 .nav-bar-list {
   display: none;
 }
