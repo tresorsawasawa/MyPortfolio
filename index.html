@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <title>My Portfolio</title>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>My Portfolio</title>
 </head>
+
 <body>
   <header class="header">
     <h2>Welcome</h2>
@@ -60,13 +59,15 @@
       </div>
       <div class="scroll">
         <a href="#email-link">
-          <img src="./images/icons/Disabled.png" alt="scrollicondwop"/>
+          <img src="./images/icons/Disabled.png" alt="scrollicondwop" />
         </a>
       </div>
     </section>
     <section class="works-section">
       <div class="title">
-        <div class="title-cont"><h2>My recent works</h2></div>
+        <div class="title-cont">
+          <h2>My recent works</h2>
+        </div>
         <img src="./images/icons/Indicator.png" alt="icon" />
       </div>
       <ul class="card-container">
@@ -175,58 +176,96 @@
       </ul>
     </section>
     <section class="about-langues">
-        <div id="about" class="about">
-          <h2>About me</h2>
-          <p>
-            I can help you build a product , feature or website Look through
-            some of my work and experience! If you like what you see and have a
-            project you need coded, don’t hestiate to contact me.
-          </p>
-          <button type="button" class="card-see get button-gren">
-            Get My Resume
-          </button>
-        </div>
-        <ul class="langues">
-          <li class="langag-content">
-            <img src="./images/icons/icon-languages.svg" alt="Language-icon" />
-            <div class="lang-body">
-              <h2>Languages</h2>
-              <ul class="langag-btn">
-                <li><button type="button">JavaScript</button></li>
-                <li><button type="button">Ruby</button></li>
-                <li><button type="button">Html</button></li>
-                <li><button type="button">CSS</button></li>
-              </ul>
-            </div>
-          </li>
-          <li class="langag-content">
-            <img src="./images/icons/icon-frameworks.svg" alt="Language-icon" />
-              <div class="lang-body">
-                <h2>Frameworks && Libraries</h2>
-                <ul class="langag-btn">
-                  <li><button type="button">Bootstrap</button></li>
-                  <li><button type="button">Ruby on rails</button></li>
-                  <li><button type="button">RSpec</button></li>
-                  <li><button type="button">Capybara</button></li>
-                  <li><button type="button">Selenium</button></li>
-                </ul>
-              </div>
-          </li>
-          <li class="langag-content">
-            <img src="./images/icons/icon-skills.svg" alt="Language-icon" />
-            <div class="lang-body">
-              <h2>Skills</h2>
-              <ul class="langag-btn">
-                <li><button type="button">Codekit</button></li>
-                <li><button type="button">Github</button></li>
-                <li><button type="button">codepen</button></li>
-                <li><button type="button">Gitlab</button></li>
-                <li><button type="button">Terminal</button></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </section>
+      <div id="about" class="about">
+        <h2>About me</h2>
+        <p>
+          I can help you build a product , feature or website Look through
+          some of my work and experience! If you like what you see and have a
+          project you need coded, don’t hestiate to contact me.
+        </p>
+        <button type="button" class="card-see get button-gren">
+          Get My Resume
+        </button>
+      </div>
+      <ul class="langues">
+        <li class="langag-content">
+          <img src="./images/icons/icon-languages.svg" alt="Language-icon" />
+          <div class="lang-body">
+            <h2>Languages</h2>
+            <ul class="langag-btn">
+              <li><button type="button">JavaScript</button></li>
+              <li><button type="button">Ruby</button></li>
+              <li><button type="button">Html</button></li>
+              <li><button type="button">CSS</button></li>
+            </ul>
+          </div>
+        </li>
+        <li class="langag-content">
+          <img src="./images/icons/icon-frameworks.svg" alt="Language-icon" />
+          <div class="lang-body">
+            <h2>Frameworks && Libraries</h2>
+            <ul class="langag-btn">
+              <li><button type="button">Bootstrap</button></li>
+              <li><button type="button">Ruby on rails</button></li>
+              <li><button type="button">RSpec</button></li>
+              <li><button type="button">Capybara</button></li>
+              <li><button type="button">Selenium</button></li>
+            </ul>
+          </div>
+        </li>
+        <li class="langag-content">
+          <img src="./images/icons/icon-skills.svg" alt="Language-icon" />
+          <div class="lang-body">
+            <h2>Skills</h2>
+            <ul class="langag-btn">
+              <li><button type="button">Codekit</button></li>
+              <li><button type="button">Github</button></li>
+              <li><button type="button">codepen</button></li>
+              <li><button type="button">Gitlab</button></li>
+              <li><button type="button">Terminal</button></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
   </main>
+  <footer class="contact-form">
+    <p class="contact-msg">I'm always interested in hearing about new projects, so if you'd like to chat please get in
+      touch.</p>
+    <form action="https://formspree.io/f/mgedwpww" method="POST" class="form-container">
+      <ul class="form_items">
+        <li><input type="text" class="form-box" id="name" placeholder="Full Name" maxlength="30" required></li>
+        <li><input type="email" class="form-box" id="email" placeholder="Email adress" required></li>
+        <li><textarea class="form-box" placeholder="Enter text here" maxlength="500" required></textarea></li>
+        <li><input type="submit" class="get-in-touch-btn card-see" value="Get in touch"></li>
+      </ul>
+    </form>
+    <div>
+      <ul class="social-media-links">
+        <li class="git">
+          <a href="https://twitter.com/TresorSawasawa" aria-label="Github link">
+            <i class="fa fa-github fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/TresorSawasawa" aria-label="twiter link">
+            <i class="fa fa-twitter fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tr%C3%A9sor-sawasawa-43745320b/" aria-label="linkedin link">
+            <i class="fa fa-linkedin fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-label="angellist icon"> <i class="fa fa-angellist fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="#" aria-label="medium icon"> <i class="fa fa-medium fa-2x"></i></a>
+        </li>
+      </ul>
+      <p class="email-link">tresorsawasawa@gmail.com</p>
+    </div>
+  </footer>
 </body>
+
 </html>
