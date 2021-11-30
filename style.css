@@ -444,10 +444,13 @@ ul {
   box-sizing: border-box;
 }
 
-::placeholder {
+textarea::placeholder {
   color: #091e42;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.contact-form input:hover,
+.contact-form textarea:hover,
 .contact-form input:focus,
 .contact-form textarea:focus {
   border: 2px solid #091e42;
