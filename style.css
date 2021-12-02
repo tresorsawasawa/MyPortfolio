@@ -157,10 +157,11 @@ ul {
 
 .works-section {
   width: 100%;
+  margin-top: 230px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .works-section .title {
@@ -459,4 +460,17 @@ textarea::placeholder {
 .contact-form textarea:focus {
   border: 2px solid #091e42;
   outline: none;
+}
+
+/* Desktop version */
+
+@media (min-width: 920px) and (max-width: 1299px) {
+  .main-section {
+    background-image: url(./images/Header-llustration-desktop.svg);
+    background-size: cover;
+    height: 100vh;
+    justify-content: flex-start;
+    padding-bottom: 398px;
+    padding-top: 200px;
+  }
 }
