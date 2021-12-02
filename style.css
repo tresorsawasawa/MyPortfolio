@@ -464,13 +464,74 @@ textarea::placeholder {
 
 /* Desktop version */
 
-@media (min-width: 920px) and (max-width: 1299px) {
+@media (min-width: 920px) and (max-width: 1440px) {
   .main-section {
-    background-image: url(./images/Header-llustration-desktop.svg);
+    background-image: url(./images/Header-llustration-desktop@2x.png);
     background-size: cover;
     height: 100vh;
     justify-content: flex-start;
     padding-bottom: 398px;
-    padding-top: 200px;
+    padding-top: 160px;
+  }
+
+  .sub-container {
+    width: 48%;
+    padding: 0;
+    margin: 24px 0;
+  }
+
+  .scroll {
+    margin: 50px 0;
+  }
+
+  .title {
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .title h2 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .title img {
+    display: none;
+  }
+
+  .card-container {
+    width: 100%;
+    grid-gap: 24px;
+    grid-template-columns: repeat(3, 327px);
+    grid-auto-rows: 359px;
+  }
+
+  .about-langues .about p {
+    width: 50%;
+    padding: 0 100px;
+  }
+
+  .about {
+    background-image:
+      url(../images/illustration-about-me-desktop.svg),
+      url(../images/illustration-about-me-2-desktop.svg);
+    background-size: 70%, 14%;
+    background-position: top right, bottom 25px left;
+    background-repeat: no-repeat, no-repeat;
+    height: 280px;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .aboutContact {
+    background-image:
+      url(./images/Frame@2x-1.png),
+      url(./images/Frame@2x.png),
+      url(./images/illustration-2-contact-form-desktop.png);
+    background-position:
+      bottom 80px left,
+      bottom 55px right,
+      bottom 120px left 200px;
   }
 }
