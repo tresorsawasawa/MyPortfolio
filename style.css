@@ -579,7 +579,7 @@ textarea::placeholder {
 
   .about img {
     display: none;
-  }
+  } */
 
   .contact-form {
     width: 100%;
@@ -635,7 +635,7 @@ textarea::placeholder {
 
   .chirld-3 {
     grid-column: 1 /-1;
-  } */
+  }
 
   .footer-icons {
     width: 100%;
