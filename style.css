@@ -635,7 +635,7 @@ textarea::placeholder {
 
   .chirld-3 {
     grid-column: 1 /-1;
-  }
+  } */
 
   .footer-icons {
     width: 100%;
@@ -653,9 +653,8 @@ textarea::placeholder {
     padding: 0;
   }
 
+  .contact-form hr,
   .email-link {
     display: none;
-  } */
-
-  
+  }
 }
