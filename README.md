@@ -2,13 +2,15 @@
 
 # MyPortfolio
 
-## Mobile version
+## Description
 
-> This project is about some skills learmed and applied througth the project.
+## Here, are: 
 
->Here, is a mobile screenshot 
+Mobile version | Desktop
+---------------------- | ------------------------------
+![Mobile_screenshot](./images/app_screenshot.png) | ![DEsktop_screenshot](./images/Destop-version-screenshot.png)
 
-![screenshot](./images/app_screenshot.png)
+> This project is about some skills learned and applied through the project.
 
 > These are main purposes of the project:
 
@@ -42,9 +44,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thank You [Microverse](www.microverse.org) team that help me with the template of this project.
+- Thanks to everyone who will get time to check this code and sugest any [issue](https://github.com/tresorsawasawa/MyPortfolio/issues) to improve the page.
 
 ## 📝 License
 
