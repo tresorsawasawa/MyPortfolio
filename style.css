@@ -549,7 +549,7 @@ textarea::placeholder {
     display: none;
   }
 
-  /* .card-container {
+  .card-container {
     width: 100%;
     grid-gap: 24px;
     grid-template-columns: repeat(3, 327px);
@@ -559,7 +559,8 @@ textarea::placeholder {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 368px);
+    grid-auto-rows: 359px;
   }
 
   .about-langues .about p {
@@ -579,7 +580,7 @@ textarea::placeholder {
 
   .about img {
     display: none;
-  } */
+  }
 
   .contact-form {
     width: 100%;
