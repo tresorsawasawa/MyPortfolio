@@ -498,25 +498,25 @@ textarea::placeholder {
     top: 0;
     background: #ffff;
     height: auto;
-  }
+  } */
 
   .humburger,
   .header h2 {
     display: none;
   }
 
-  .nav-bar-list {
+  /* .nav-bar-list {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #06bb70;
-  }
+  } */
 
-  .nav-bar-list li {
+  /* .nav-bar-list li {
     line-height: 24px;
     color: #091e42;
     font-weight: 600;
-  }
+  } */
 
   .main-section {
     background-image: url(./images/Header-llustration-desktop.svg);
@@ -549,7 +549,7 @@ textarea::placeholder {
     display: none;
   }
 
-  .card-container {
+  /* .card-container {
     width: 100%;
     grid-gap: 24px;
     grid-template-columns: repeat(3, 327px);
@@ -594,36 +594,36 @@ textarea::placeholder {
   }
 
   .contact-form .content {
-    width: 100%;
+    width: 85%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 0;
   }
 
   .form-container {
-    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
 
-  .contact-form .content form ul {
-    width: 100%;
+  .contact-form .content form {
+    width: 50%;
     justify-content: center;
     align-items: flex-start;
     margin: 0;
     padding: 0 0 0 24px;
   }
 
-  form {
-    width: 60%;
+  .submit-container .get-in-touch-btn {
+    align-items: center;
+    justify-content: flex-start;
   }
 
   .contact-form .content p {
-    width: 40%;
+    width: 45%;
     margin: 0;
     font-size: 30px;
     line-height: 52px;
