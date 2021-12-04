@@ -66,6 +66,50 @@ button:focus {
   align-items: center;
 }
 
+.card-info h2 {
+  color: #3a4a42;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin: 16px;
+}
+
+.nav-bar-list li {
+  padding: 10px 12px;
+}
+
+.sub-container h2 {
+  color: #06bb70;
+}
+
+.title h2 {
+  padding: 0;
+  margin: 0 0 40px 0;
+  color: #172b4d;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.about h2 {
+  font-size: 50px;
+  line-height: 52px;
+  margin: 20px 0;
+  color: #172b4d;
+}
+
+.about h2:hover,
+.title-cont h2:hover,
+.nav-bar-list li:hover {
+  transform: translate(0, -5px);
+  transition: all 0.5s ease;
+}
+
 .humburger {
   display: block;
 }
@@ -78,10 +122,6 @@ button:focus {
   display: none;
 }
 
-.nav-bar-list li {
-  padding: 10px 12px;
-}
-
 .nav-bar-list li a {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -90,6 +130,12 @@ button:focus {
   line-height: 20px;
   color: #344563;
   text-decoration: none;
+}
+
+.footer-icons li:hover,
+.sub-container .social-media-links li:hover {
+  transform: scale(1.5);
+  transition: all 0.5s ease-in-out;
 }
 
 /* Main section */
@@ -129,12 +175,19 @@ button:focus {
   margin: 0;
 }
 
-.sub-container h1 {
+.sub-container .presentation {
   color: #172b4d;
+  animation: anim_my_name 2.5s infinite;
 }
 
-.sub-container h2 {
-  color: #06bb70;
+@keyframes anim_my_name {
+  0% {
+    transform: translate(0, -5px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
 .detail {
@@ -183,19 +236,6 @@ button:focus {
   top: 0;
 }
 
-.title h2 {
-  padding: 0;
-  margin: 0 0 40px 0;
-  color: #172b4d;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 52px;
-  letter-spacing: 0;
-  text-align: center;
-  text-transform: capitalize;
-}
-
 .works-section .title img {
   margin: 0;
   padding-top: 24px;
@@ -237,15 +277,6 @@ button:focus {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-}
-
-.card-info h2 {
-  color: #3a4a42;
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: 600;
-  text-align: center;
-  margin: 16px;
 }
 
 .card-buttons {
@@ -341,13 +372,6 @@ button:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.about h2 {
-  font-size: 50px;
-  line-height: 52px;
-  margin: 20px 0;
-  color: #172b4d;
 }
 
 .langues {
