@@ -66,6 +66,13 @@ button:focus {
   align-items: center;
 }
 
+.about h2:hover,
+.title-cont h2:hover,
+.nav-bar-list li:hover {
+transform: translate(0, -5px);
+transition: all 0.5s ease;
+}
+
 .humburger {
   display: block;
 }
