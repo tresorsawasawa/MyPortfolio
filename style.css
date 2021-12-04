@@ -144,6 +144,17 @@ transition: all 0.5s ease;
 
 .sub-container h1 {
   color: #172b4d;
+  animation: anim_my_name 2.5s infinite;
+}
+
+@keyframes anim_my_name {
+  0% {
+    transform: translate(0, -5px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
 .sub-container h2 {
