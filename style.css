@@ -66,11 +66,48 @@ button:focus {
   align-items: center;
 }
 
+.card-info h2 {
+  color: #3a4a42;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin: 16px;
+}
+
+.nav-bar-list li {
+  padding: 10px 12px;
+}
+
+.sub-container h2 {
+  color: #06bb70;
+}
+
+.title h2 {
+  padding: 0;
+  margin: 0 0 40px 0;
+  color: #172b4d;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.about h2 {
+  font-size: 50px;
+  line-height: 52px;
+  margin: 20px 0;
+  color: #172b4d;
+}
+
 .about h2:hover,
 .title-cont h2:hover,
 .nav-bar-list li:hover {
-transform: translate(0, -5px);
-transition: all 0.5s ease;
+  transform: translate(0, -5px);
+  transition: all 0.5s ease;
 }
 
 .humburger {
@@ -83,10 +120,6 @@ transition: all 0.5s ease;
 
 .nav-bar-list {
   display: none;
-}
-
-.nav-bar-list li {
-  padding: 10px 12px;
 }
 
 .nav-bar-list li a {
@@ -142,7 +175,7 @@ transition: all 0.5s ease;
   margin: 0;
 }
 
-.presentation {
+.sub-container .presentation {
   color: #172b4d;
   animation: anim_my_name 2.5s infinite;
 }
@@ -155,10 +188,6 @@ transition: all 0.5s ease;
   100% {
     transform: translate(0, 0);
   }
-}
-
-.sub-container h2 {
-  color: #06bb70;
 }
 
 .detail {
@@ -207,19 +236,6 @@ transition: all 0.5s ease;
   top: 0;
 }
 
-.title h2 {
-  padding: 0;
-  margin: 0 0 40px 0;
-  color: #172b4d;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 52px;
-  letter-spacing: 0;
-  text-align: center;
-  text-transform: capitalize;
-}
-
 .works-section .title img {
   margin: 0;
   padding-top: 24px;
@@ -261,15 +277,6 @@ transition: all 0.5s ease;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-}
-
-.card-info h2 {
-  color: #3a4a42;
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: 600;
-  text-align: center;
-  margin: 16px;
 }
 
 .card-buttons {
@@ -365,13 +372,6 @@ transition: all 0.5s ease;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.about h2 {
-  font-size: 50px;
-  line-height: 52px;
-  margin: 20px 0;
-  color: #172b4d;
 }
 
 .langues {
