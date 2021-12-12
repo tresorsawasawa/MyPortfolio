@@ -175,8 +175,11 @@ button:focus {
   margin: 0;
 }
 
-.sub-container .presentation {
+.sub-container h1 {
   color: #172b4d;
+}
+
+.sub-container .presentation {
   animation: anim_my_name 2.5s infinite;
 }
 
