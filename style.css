@@ -175,8 +175,11 @@ button:focus {
   margin: 0;
 }
 
-.sub-container .presentation {
+.sub-container h1 {
   color: #172b4d;
+}
+
+.sub-container .presentation {
   animation: anim_my_name 2.5s infinite;
 }
 
@@ -331,7 +334,7 @@ button:focus {
 }
 
 .card-see {
-  background-color: #06bb70;
+  background-color: #1e488f;
   font-weight: 600;
   border: none;
   border-radius: 4px;
@@ -347,7 +350,7 @@ button:focus {
 }
 
 .card-see:focus {
-  background-color: #008552;
+  background-color: #0a2759;
 }
 
 .about-langues {
