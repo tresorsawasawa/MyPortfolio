@@ -536,6 +536,7 @@ button:focus {
   line-height: 52px;
   color: #172b4d;
   margin-bottom: 20px;
+  padding-top: 32px;
 }
 
 .form-container {
