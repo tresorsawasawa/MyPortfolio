@@ -100,7 +100,12 @@ button:focus {
   font-size: 50px;
   line-height: 52px;
   margin: 20px 0;
+  padding-top: 45px;
   color: #172b4d;
+}
+
+.change-menu h2 {
+  display: none;
 }
 
 .about h2:hover,
@@ -122,6 +127,32 @@ button:focus {
   display: none;
 }
 
+.close-menu {
+  cursor: pointer;
+  display: none;
+}
+
+.change-menu {
+  height: 90vh;
+  background-color: #fff;
+  position: fixed;
+  align-items: flex-start;
+  border-radius: 0 0 40px 40px;
+  box-shadow: 0 45px 45px rgba(37, 47, 137, 0.09);
+  animation: animMenu 1s ease;
+  transition: all 1s ease;
+}
+
+@keyframes animMenu {
+  0% {
+    transform: translateY(-1000px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .nav-bar-list li a {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -130,6 +161,25 @@ button:focus {
   line-height: 20px;
   color: #344563;
   text-decoration: none;
+}
+
+.change-menu nav {
+  width: 100%;
+  flex-direction: column;
+}
+
+.change-menu ul {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.change-menu .humb-mob {
+  display: none;
+}
+
+.change-menu nav .mob-list {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-icons li:hover,
