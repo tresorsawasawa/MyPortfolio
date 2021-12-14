@@ -133,7 +133,7 @@ button:focus {
 }
 
 .change-menu {
-  height: 90vh;
+  height: 100vh;
   background-color: #fff;
   position: fixed;
   align-items: flex-start;
