@@ -83,6 +83,16 @@ button:focus {
   color: #06bb70;
 }
 
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
 .title h2 {
   padding: 0;
   margin: 0 0 40px 0;
@@ -106,6 +116,10 @@ button:focus {
 
 .change-menu h2 {
   display: none;
+}
+
+.popBtn li {
+  margin-right: 8px;
 }
 
 .about h2:hover,
@@ -305,6 +319,15 @@ button:focus {
   width: 327px;
   left: 0;
   top: 0;
+}
+
+.closePop img {
+  width: 90%;
+  height: 90%;
+}
+
+.popImgContainer img {
+  width: 100%;
 }
 
 .works-section .title img {
@@ -608,7 +631,7 @@ textarea::placeholder {
 .popupWindow {
   width: 100%;
   height: 100vh;
-  background-color: #fff;
+  background-color: #c1c7d05e;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -620,13 +643,20 @@ textarea::placeholder {
   border-radius: 16px;
   z-index: 999;
   overflow-y: scroll;
+  transition: all 0.5s ease-in-out;
+}
+
+.project-img {
+  width: 95%;
+  height: 95%;
+  opacity: 0.8;
 }
 
 .filterBackground {
   background: transparent;
   z-index: -100;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.8;
   position: absolute;
   top: 0;
   height: 130vh;
@@ -651,11 +681,6 @@ textarea::placeholder {
   cursor: pointer;
 }
 
-.closePop img {
-  width: 90%;
-  height: 90%;
-}
-
 .popupWindow .popupContainer {
   background-color: #ffff;
   position: relative;
@@ -678,10 +703,6 @@ textarea::placeholder {
   justify-content: center;
 }
 
-.popImgContainer img {
-  width: 100%;
-}
-
 .heading2 {
   color: #172b4d;
   background-color: #fff;
@@ -690,19 +711,23 @@ textarea::placeholder {
   line-height: 44px;
 }
 
-.popupContainer .see-btn {
+.popupWindow .popBtn {
+  justify-content: flex-start;
   width: 90%;
+}
+
+.popupContainer .see-btn {
+  display: flex;
   justify-content: flex-start;
   margin: 0;
 }
 
 .popupContainer .button-gren {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  padding: 8px 12px;
-  background: #ebf0ee;
-  border-radius: 4px;
+  padding: 0 5px;
+  margin: 0;
 }
 
 .button-gren:last-child {
@@ -720,6 +745,8 @@ textarea::placeholder {
 .popupContainer .popBtn li .button {
   color: #344563;
 }
+
+/* --- Desketop version---- */
 
 @media screen and (min-width: 920px) {
   .header {
@@ -789,12 +816,29 @@ textarea::placeholder {
     grid-template-columns: repeat(3, 327px);
   }
 
+  /* .card-container {
+    display: grid;
+    width: auto;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    padding: 20px 10px;
+    grid-auto-rows: 474px;
+    justify-content: center;
+    align-items: center;
+  } */
+
   .langues {
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(3, 368px);
     grid-auto-rows: 359px;
+  }
+
+  .popupContainer p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
   }
 
   .about-langues .about p {
