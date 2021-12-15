@@ -638,7 +638,6 @@ textarea::placeholder {
   align-items: center;
   padding: 16px;
   top: 0;
-  color: #344563;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
@@ -731,6 +730,12 @@ textarea::placeholder {
   font-size: 32px;
   font-weight: 600;
   line-height: 44px;
+}
+
+.project-msg {
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
 
 .popupWindow .popBtn {
@@ -890,12 +895,6 @@ textarea::placeholder {
     align-items: center;
     grid-template-columns: repeat(3, 368px);
     grid-auto-rows: 359px;
-  }
-
-  .popupWindow .popupContainer p {
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
   }
 
   .about-langues .about p {
