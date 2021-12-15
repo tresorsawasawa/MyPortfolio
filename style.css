@@ -635,15 +635,37 @@ textarea::placeholder {
   position: fixed;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 16px;
   top: 0;
+  color: #344563;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   z-index: 999;
   overflow-y: scroll;
   transition: all 0.5s ease-in-out;
+}
+
+.anim-popup .popup-window {
+  transform: translate(-400px, 500px) rotateZ(50deg) scale(0.0001);
+  opacity: 0;
+}
+
+.scrollHtml .main-container .works-section,
+.scrollHtml .main-container .about-langues,
+.scrollHtml .main-container .home-section,
+.scrollHtml .header {
+  filter: blur(10px);
+  z-index: -1;
+}
+
+.anim-popup .main-container .section-2,
+.anim-popup .main-container .about-langues,
+.anim-popup .main-container .home-section,
+.anim-popup .header {
+  filter: blur(0);
+  z-index: -1;
 }
 
 .project-img {
@@ -749,6 +771,52 @@ textarea::placeholder {
 /* --- Desketop version---- */
 
 @media screen and (min-width: 920px) {
+  /* ----Start Popup window ---- */
+  .popupWindow .popupContainer {
+    margin: 8% 0;
+    width: 85%;
+    position: relative;
+    padding: 60px 24px;
+  }
+
+  .pop-img-container {
+    position: initial;
+  }
+
+  .closePop .close-icon {
+    width: 70%;
+    height: 70%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .popupContainer .see-btn {
+    justify-content: flex-end;
+    width: 67%;
+    margin-left: auto;
+    grid-row: 2 / 3;
+    grid-column: 1 / 1;
+    height: 100%;
+  }
+
+  .popupContainer h2 {
+    width: 50%;
+    grid-row: 2 / 3;
+    grid-column: 1 / 1;
+    font-size: 30px;
+    line-height: 44px;
+    color: #172b4d;
+    margin: 15px 0;
+  }
+
+  .popupContainer .see-btn .button-gren {
+    margin: 10px 0 70px 12px;
+    height: 40px;
+    width: auto;
+  }
+
+  /* ----End Popup window ---- */
+
   .header {
     justify-content: center;
     padding: 16px 0;
@@ -816,17 +884,6 @@ textarea::placeholder {
     grid-template-columns: repeat(3, 327px);
   }
 
-  /* .card-container {
-    display: grid;
-    width: auto;
-    grid-gap: 20px;
-    grid-template-columns: 1fr;
-    padding: 20px 10px;
-    grid-auto-rows: 474px;
-    justify-content: center;
-    align-items: center;
-  } */
-
   .langues {
     display: grid;
     justify-content: center;
@@ -835,7 +892,7 @@ textarea::placeholder {
     grid-auto-rows: 359px;
   }
 
-  .popupContainer p {
+  .popupWindow .popupContainer p {
     font-size: 16px;
     line-height: 24px;
     color: #344563;

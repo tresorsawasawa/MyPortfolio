@@ -100,7 +100,7 @@ const mobileData = [
       },
     ],
     paragraph:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus at illo explicabo voluptatum maiores eum exercitationem fugit? In, nobis asperiores!',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum consequatur officia cumque sit at voluptates, suscipit explicabo repudiandae fugit enim eveniet, perspiciatis voluptate debitis quasi odio recusandae quibusdam porro vel non iste. Neque alias voluptate exercitationem accusantium blanditiis veritatis incidunt aperiam, veniam ex facere cum autem tenetur, repudiandae rem sint.',
   },
   {
     id: 'project5',
@@ -190,6 +190,7 @@ mobileData.forEach((asection) => {
   img.className = 'pop-image';
   closePop.className = 'closePop';
   heading2.className = 'heading2';
+  paragraph.className = 'project-msg';
   listElements.className = 'card-buttons popBtn';
   imgContainer.className = 'popImgContainer';
   close.classList = 'close-icon';
