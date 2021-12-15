@@ -621,6 +621,15 @@ textarea::placeholder {
   z-index: 999;
   overflow-y: scroll;
 }
+.filterBackground {
+  background: transparent;
+  z-index: -100;
+  width: 100%;
+  opacity: 0.9;
+  position: absolute;
+  top: 20px;
+  height: 130vh;
+}
 
 /* Desktop version */
 
