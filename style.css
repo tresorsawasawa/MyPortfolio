@@ -604,6 +604,24 @@ textarea::placeholder {
   outline: none;
 }
 
+/* --- Style popup-window ---- */
+.popupWindow {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  top: 20px;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  z-index: 999;
+  overflow-y: scroll;
+}
+
 /* Desktop version */
 
 @media screen and (min-width: 920px) {
