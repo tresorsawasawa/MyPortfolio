@@ -151,9 +151,9 @@ const mobileData = [
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus at illo explicabo voluptatum maiores eum exercitationem fugit? In, nobis asperiores!',
   },
 ];
-// let project = 1;
-// const sections = [];
-// const cards = [];
+let project = 1;
+const sections = [];
+const cards = [];
 
 // Add the Change-menu class to open the and close the mobile menu
 
@@ -242,4 +242,22 @@ mobileData.forEach((asection) => {
       main.removeChild(child);
     }, 500);
   });
+});
+
+// Implememtation of the flex card
+mobileData.forEach((asection) => {
+  const list = document.createElement('li');
+  list.innerHTML = `<div class="card">
+  <div class="image"><div class="project-bg"></div><img class="project-img" src='${asection.images.img}'></div>
+    <div class="card-info">
+      <h2>${asection.secondTitle}</h2>
+      <ul class="card-buttons">
+        ${asection.techno.map((atechno) => `<li>
+          <button type="button">${atechno}</button>
+        </li>`).join('')}
+      </ul>
+      <button type="button" id="show-popup" class="card-see button-gren show-popup" > See Project </button>
+    </div>
+  </div>`;
+  cards.push(list);
 });
