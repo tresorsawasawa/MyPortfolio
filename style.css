@@ -83,6 +83,16 @@ button:focus {
   color: #06bb70;
 }
 
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
 .title h2 {
   padding: 0;
   margin: 0 0 40px 0;
@@ -106,6 +116,10 @@ button:focus {
 
 .change-menu h2 {
   display: none;
+}
+
+.popBtn li {
+  margin-right: 8px;
 }
 
 .about h2:hover,
@@ -305,6 +319,15 @@ button:focus {
   width: 327px;
   left: 0;
   top: 0;
+}
+
+.closePop img {
+  width: 90%;
+  height: 90%;
+}
+
+.popImgContainer img {
+  width: 100%;
 }
 
 .works-section .title img {
@@ -536,6 +559,7 @@ button:focus {
   line-height: 52px;
   color: #172b4d;
   margin-bottom: 20px;
+  padding-top: 32px;
 }
 
 .form-container {
@@ -603,9 +627,201 @@ textarea::placeholder {
   outline: none;
 }
 
-/* Desktop version */
+/* --- Style popup-window ---- */
+.popupWindow {
+  width: 100%;
+  height: 100vh;
+  background-color: #c1c7d05e;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  top: 0;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  z-index: 999;
+  overflow-y: scroll;
+  transition: all 0.5s ease-in-out;
+}
+
+.anim-popup .popup-window {
+  transform: translate(-400px, 500px) rotateZ(50deg) scale(0.0001);
+  opacity: 0;
+}
+
+.scrollHtml .main-container .works-section,
+.scrollHtml .main-container .about-langues,
+.scrollHtml .main-container .home-section,
+.scrollHtml .header {
+  filter: blur(10px);
+  z-index: -1;
+}
+
+.anim-popup .main-container .section-2,
+.anim-popup .main-container .about-langues,
+.anim-popup .main-container .home-section,
+.anim-popup .header {
+  filter: blur(0);
+  z-index: -1;
+}
+
+.project-img {
+  width: 95%;
+  height: 95%;
+  opacity: 0.8;
+}
+
+.filterBackground {
+  background: transparent;
+  z-index: -100;
+  width: 100%;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  height: 130vh;
+}
+
+.closePop {
+  z-index: 999;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 22px;
+  top: 22px;
+  background: #ebecf0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 2px solid #67798e;
+}
+
+.closePop:hover {
+  cursor: pointer;
+}
+
+.popupWindow .popupContainer {
+  background-color: #ffff;
+  position: relative;
+  margin: 6% 0;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  padding: 15px;
+  border: 1px solid #def1e6;
+  box-sizing: border-box;
+}
+
+.popupContainer .popImgContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.heading2 {
+  color: #172b4d;
+  background-color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.project-msg {
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.popupWindow .popBtn {
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.popupContainer .see-btn {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.popupContainer .button-gren {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  margin: 0;
+}
+
+.button-gren:last-child {
+  margin-left: 10px;
+}
+
+.see-btn .button-gren span {
+  padding: 12px;
+}
+
+.see-btn .button-gren img {
+  padding-right: 12px;
+}
+
+.popupContainer .popBtn li .button {
+  color: #344563;
+}
+
+/* --- Desketop version---- */
 
 @media screen and (min-width: 920px) {
+  /* ----Start Popup window ---- */
+  .popupWindow .popupContainer {
+    margin: 8% 0;
+    width: 85%;
+    position: relative;
+    padding: 60px 24px;
+  }
+
+  .pop-img-container {
+    position: initial;
+  }
+
+  .closePop .close-icon {
+    width: 70%;
+    height: 70%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .popupContainer .see-btn {
+    justify-content: flex-end;
+    width: 67%;
+    margin-left: auto;
+    grid-row: 2 / 3;
+    grid-column: 1 / 1;
+    height: 100%;
+  }
+
+  .popupContainer h2 {
+    width: 50%;
+    grid-row: 2 / 3;
+    grid-column: 1 / 1;
+    font-size: 30px;
+    line-height: 44px;
+    color: #172b4d;
+    margin: 15px 0;
+  }
+
+  .popupContainer .see-btn .button-gren {
+    margin: 10px 0 70px 12px;
+    height: 40px;
+    width: auto;
+  }
+
+  /* ----End Popup window ---- */
+
   .header {
     justify-content: center;
     padding: 16px 0;
