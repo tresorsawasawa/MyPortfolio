@@ -261,3 +261,16 @@ mobileData.forEach((asection) => {
   </div>`;
   cards.push(list);
 });
+
+// Filteration of popup window data using project "id's"
+cards.forEach((card) => {
+  CardContainer.appendChild(card);
+  const button = card.querySelector('#show-popup');
+  button.id = `project${project}`;
+  project += 1;
+  button.addEventListener('click', () => {
+    const displaySection = sections.filter((section) => section.id === button.id);
+    main.appendChild(displaySection[0]);
+    html.classList.add('scrolHtml');
+  });
+});
