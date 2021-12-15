@@ -656,7 +656,7 @@ textarea::placeholder {
   height: 90%;
 }
 
-.popup-window .pop-container {
+.popupWindow .popupContainer {
   background-color: #ffff;
   position: relative;
   margin: 6% 0;
@@ -678,15 +678,32 @@ textarea::placeholder {
   justify-content: center;
 }
 
-.pop-img-container img {
+.popImgContainer img {
   width: 100%;
 }
 
+.heading2 {
+  color: #172b4d;
+  background-color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+}
 
+.popupContainer .see-btn {
+  width: 90%;
+  justify-content: flex-start;
+  margin: 0;
+}
 
-
-
-/* Desktop version */
+.popupContainer .button-gren {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  background: #ebf0ee;
+  border-radius: 4px;
+}
 
 @media screen and (min-width: 920px) {
   .header {
