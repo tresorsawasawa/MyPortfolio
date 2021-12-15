@@ -656,6 +656,36 @@ textarea::placeholder {
   height: 90%;
 }
 
+.popup-window .pop-container {
+  background-color: #ffff;
+  position: relative;
+  margin: 6% 0;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  padding: 15px;
+  border: 1px solid #def1e6;
+  box-sizing: border-box;
+}
+
+.popupContainer .popImgContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.pop-img-container img {
+  width: 100%;
+}
+
+
+
+
+
 /* Desktop version */
 
 @media screen and (min-width: 920px) {
