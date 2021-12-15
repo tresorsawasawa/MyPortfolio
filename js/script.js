@@ -10,21 +10,21 @@ const mobileData = [
     id: 'project1',
     secondTitle: "Tresor's Portfolio",
     images: {
-      img: './images/bg-image.png',
+      img: './images/Portfolio2.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
+    techno: ['Html', 'Css', 'Javascript'],
     heading: "Tresor's Portfolio",
     list: [
       {
         icon: './images/icons/IconExport.svg',
         text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/MyPortfolio/',
+        live: 'https://tresorsawasawa.github.io/My_Portfolio/',
       },
       {
         text: 'See Source',
         icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/MyPortfolio',
+        live: 'https://github.com/tresorsawasawa/My_Portfolio',
       },
     ],
     paragraph:
