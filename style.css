@@ -705,6 +705,22 @@ textarea::placeholder {
   border-radius: 4px;
 }
 
+.button-gren:last-child {
+  margin-left: 10px;
+}
+
+.see-btn .button-gren span {
+  padding: 12px;
+}
+
+.see-btn .button-gren img {
+  padding-right: 12px;
+}
+
+.popupContainer .popBtn li .button {
+  color: #344563;
+}
+
 @media screen and (min-width: 920px) {
   .header {
     justify-content: center;
