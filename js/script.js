@@ -10,7 +10,7 @@ const mobileData = [
     id: 'project1',
     secondTitle: "Tresor's Portfolio",
     images: {
-      img: './images/Snapshoot-Portfolio.png',
+      img: './images/bg-image.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
     techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
@@ -34,7 +34,7 @@ const mobileData = [
     id: 'project2',
     secondTitle: "Tresor's Portfolio",
     images: {
-      img: './images/Snapshoot-Portfolio.png',
+      img: './images/bg-image.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
     techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
@@ -58,7 +58,7 @@ const mobileData = [
     id: 'project3',
     secondTitle: "Tresor's Portfolio",
     images: {
-      img: './images/Snapshoot-Portfolio.png',
+      img: './images/bg-image.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
     techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
@@ -82,7 +82,7 @@ const mobileData = [
     id: 'project4',
     secondTitle: "Tresor's Portfolio",
     images: {
-      img: './images/Snapshoot-Portfolio.png',
+      img: './images/bg-image.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
     techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
@@ -106,7 +106,7 @@ const mobileData = [
     id: 'project5',
     secondTitle: "Tresor's Portfolio",
     images: {
-      img: './images/Snapshoot-Portfolio.png',
+      img: './images/bg-image.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
     techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
@@ -130,7 +130,7 @@ const mobileData = [
     id: 'project6',
     secondTitle: "Tresor's Portfolio",
     images: {
-      img: './images/Snapshoot-Portfolio.png',
+      img: './images/bg-image.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
     techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
