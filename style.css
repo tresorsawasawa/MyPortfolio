@@ -596,7 +596,7 @@ button:focus {
   display: block;
 }
 
-.focusError .hasError {
+.focus-error .hasError {
   display: block;
   color: #d1220e;
 }
@@ -605,27 +605,26 @@ button:focus {
   display: none;
 }
 
-.focusError .noError {
+.focus-error .noError {
   display: none;
 }
 
 .success #name,
 .success #email {
-  border: 3px solid #00964b;
-  box-shadow: 1px 1px 10px rgba(7, 176, 100, 0.472);
+  border: 2px solid #00964b;
   outline: none;
 }
 
 .success #message {
-  border: 3px solid #00964b;
+  border: 2px solid #00964b;
   box-shadow: 1px 1px 10px rgba(7, 176, 100, 0.733);
   outline: none;
 }
 
 .focus-error #name,
 .focus-error #email {
-  border: 3px solid #d1220e;
-  box-shadow: 1px 1px 10px rgba(192, 32, 4, 0.404);
+  border: 2px solid #d1220e;
+  box-shadow: 1px 1px 10px rgba(192, 32, 4, 0.204);
   outline: none;
 }
 
