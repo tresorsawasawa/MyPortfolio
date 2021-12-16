@@ -582,9 +582,9 @@ button:focus {
   right: 10px;
 }
 
-/* .form-control .check-icons {
+.form-control .check-icons {
   display: none;
-} */
+}
 
 .success .check-icons {
   display: block;
