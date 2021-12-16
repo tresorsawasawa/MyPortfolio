@@ -147,12 +147,25 @@
       <form action="https://formspree.io/f/mgedwpww" method="POST" class="form-container">
         <div class="form-control">
           <input id="name" name="user_name" placeholder="Full Name" maxlength="30" required />
+          <label class="check-icons" for="name">
+            <i class="noError fa fa-check-circle"></i>
+            <i class="hasError fa fa-exclamation-circle"></i>
+          </label>
         </div>
         <div class="form-control">
           <input id="email" name="user_email" placeholder="Email address" required />
+          <label class="check-icons" for="name">
+            <i class="noError fa fa-check-circle"></i>
+            <i class="hasError fa fa-exclamation-circle"></i>
+          </label>
         </div>
         <div class="form-control">
           <textarea name="comment" maxlength="500" id="message" placeholder="Enter text here" required></textarea>
+          <label class="check-icons" for="name">
+            <i class="noError fa fa-check-circle"></i>
+            <i class="hasError fa fa-exclamation-circle"></i>
+          </label>
+
         </div>
         <div class="submit-container">
           <button type="submit" class="get-in-touch-btn card-see">Get in touch</button>
