@@ -303,3 +303,10 @@ function showError(input) {
   errorText.innerHTML = `Please this '${input.name}' form is required`;
 }
 
+// Implement Success message
+
+function success(input) {
+  const parent = input.parentElement;
+  const div = parent.querySelector('div');
+  div.innerHTML = '';
+}
