@@ -551,6 +551,86 @@ button:focus {
   position: relative;
 }
 
+.form-container input {
+  width: 100%;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  padding: 15px 16px;
+  font-size: 15px;
+  box-sizing: border-box;
+  height: 48px;
+  line-height: 24px;
+}
+
+.form-container textarea,
+.form-container input {
+  margin: 10px auto;
+}
+
+.form-control label {
+  display: inline-block;
+  margin: 3px;
+}
+
+.form-control.error input {
+  border-color: #d1220e;
+}
+
+.check-icons {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+.form-control .check-icons {
+  display: none;
+}
+
+.success .check-icons {
+  display: block;
+}
+
+.success .noError {
+  color: #00964b;
+  visibility: visible;
+  display: block;
+}
+
+.focus-error .hasError {
+  display: block;
+  color: #d1220e;
+}
+
+.success .hasError {
+  display: none;
+}
+
+.focus-error .noError {
+  display: none;
+}
+
+.success #name,
+.success #email {
+  border: 2px solid #00964b;
+  outline: none;
+}
+
+.success #message {
+  border: 2px solid #00964b;
+  outline: none;
+}
+
+.focus-error #name,
+.focus-error #email {
+  border: 2px solid #d1220e;
+  box-shadow: 1px 1px 10px rgba(192, 32, 4, 0.204);
+  outline: none;
+}
+
+.anim-error {
+  animation: animError 0.3s ease 1;
+}
+
 .contact-msg {
   width: 100%;
   font-weight: bold;
@@ -568,22 +648,6 @@ button:focus {
   align-items: center;
   justify-content: center;
   width: 100%;
-}
-
-.form-container input {
-  width: 100%;
-  border: 1px solid #d0d9d4;
-  border-radius: 4px;
-  padding: 15px 16px;
-  font-size: 15px;
-  box-sizing: border-box;
-  height: 48px;
-  line-height: 24px;
-}
-
-.form-container textarea,
-.form-container input {
-  margin: 10px auto;
 }
 
 .form-container textarea {
@@ -623,7 +687,7 @@ textarea::placeholder {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border: 1px solid #091e42;
+  border: 2px solid #091e42;
   outline: none;
 }
 

@@ -10,21 +10,21 @@ const mobileData = [
     id: 'project1',
     secondTitle: "Tresor's Portfolio",
     images: {
-      img: './images/bg-image.png',
+      img: './images/Portfolio2.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
+    techno: ['Html', 'Css', 'Javascript'],
     heading: "Tresor's Portfolio",
     list: [
       {
         icon: './images/icons/IconExport.svg',
         text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/MyPortfolio/',
+        live: 'https://tresorsawasawa.github.io/My_Portfolio/',
       },
       {
         text: 'See Source',
         icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/MyPortfolio',
+        live: 'https://github.com/tresorsawasawa/My_Portfolio',
       },
     ],
     paragraph:
@@ -274,4 +274,157 @@ cards.forEach((card) => {
     main.appendChild(displaySection[0]);
     html.classList.add('scrolHtml');
   });
+});
+
+// Client validation inputs
+
+const contactForm = document.querySelector('.form-container');
+const inputName = document.querySelector('#name');
+const inputEmail = document.querySelector('#email');
+const inputComment = document.querySelector('#message');
+const myData = {};
+
+function putErrorContainer(input) {
+  const parent = input.parentElement;
+  const div = document.createElement('div');
+  div.className = 'error';
+  parent.appendChild(div);
+}
+
+putErrorContainer(inputName);
+putErrorContainer(inputEmail);
+putErrorContainer(inputComment);
+
+// Implement Error message
+
+function showError(input) {
+  const errorContainer = input.parentElement;
+  const errorText = errorContainer.querySelector('div');
+  errorText.innerHTML = `Please this '${input.name}' form is required`;
+}
+
+// Implement Success message
+
+function success(input) {
+  const parent = input.parentElement;
+  const div = parent.querySelector('div');
+  div.innerHTML = '';
+}
+
+const submitError = contactForm.querySelector('.submit-container');
+const span = document.createElement('span');
+span.className = 'submitError';
+submitError.appendChild(span);
+span.classList.add('error');
+
+// Impement Validation function
+function inputValidation() {
+  const inputNameValue = inputName.value.trim();
+  const inputEmailValue = inputEmail.value.trim();
+  const inputCommentValue = inputComment.value.trim();
+
+  const emailText = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
+  const IsEmailValid = emailText.test(inputEmailValue);
+
+  if (inputNameValue === '') {
+    showError(inputName);
+  } else {
+    success(inputName);
+  }
+  if (inputEmailValue === '') {
+    showError(inputEmail);
+    span.classList.remove('remove');
+    span.innerText = 'Invalid, Email is required';
+  } else if (!IsEmailValid) {
+    span.classList.remove('remove');
+    span.innerText = 'Kindly check your email';
+    span.style.color = '#d1220e';
+    const div = inputEmail.parentElement.querySelector('div');
+    div.innerText = 'Check your email please, the email should be VALID and in LOWERCASE';
+    div.style.color = '#d1220e';
+  } else {
+    span.classList.add('remove');
+    success(inputEmail);
+  }
+
+  if (inputCommentValue === '') {
+    showError(inputComment);
+  } else {
+    success(inputComment);
+  }
+}
+
+const error = document.querySelectorAll('.error');
+
+contactForm.addEventListener('submit', (e) => {
+  myData.name = inputName.value;
+  myData.email = inputEmail.value;
+  myData.comment = inputComment.value;
+
+  inputValidation();
+  if (error[0].parentElement.innerText !== '') {
+    error[0].parentElement.classList.add('anim-error');
+    error[0].parentElement.classList.add('focus-error');
+    error[0].parentElement.classList.remove('success');
+
+    setTimeout(() => {
+      error[0].parentElement.classList.remove('anim-error');
+    }, 500);
+    e.preventDefault();
+  } else {
+    error[0].parentElement.classList.remove('focus-error');
+    error[0].parentElement.classList.add('success');
+  }
+  if (error[1].parentElement.innerText !== '') {
+    error[1].parentElement.classList.add('anim-error');
+    error[1].parentElement.classList.add('focus-error');
+    error[1].parentElement.classList.remove('success');
+
+    setTimeout(() => {
+      error[1].parentElement.classList.remove('anim-error');
+    }, 500);
+    e.preventDefault();
+  } else {
+    error[1].parentElement.classList.remove('focus-error');
+    error[1].parentElement.classList.add('success');
+  }
+  if (error[2].parentElement.innerText !== '') {
+    error[2].parentElement.classList.add('anim-error');
+    error[2].parentElement.classList.add('focus-error');
+    error[2].parentElement.classList.remove('success');
+
+    setTimeout(() => {
+      error[2].parentElement.classList.remove('anim-error');
+    }, 500);
+    e.preventDefault();
+  } else {
+    error[2].parentElement.classList.remove('focus-error');
+    error[2].parentElement.classList.add('success');
+  }
+  if (error[1].parentElement.innerText !== '') {
+    error[1].parentElement.classList.add('anim-error');
+    error[1].parentElement.classList.add('focus-error');
+    error[1].parentElement.classList.remove('success');
+
+    setTimeout(() => {
+      error[1].parentElement.classList.remove('anim-error');
+    }, 500);
+    e.preventDefault();
+  } else {
+    error[1].parentElement.classList.remove('focus-error');
+    error[1].parentElement.classList.add('success');
+  }
+  if (error[2].parentElement.innerText !== '') {
+    error[2].parentElement.classList.add('anim-error');
+    error[2].parentElement.classList.add('focus-error');
+    error[2].parentElement.classList.remove('success');
+
+    setTimeout(() => {
+      error[2].parentElement.classList.remove('anim-error');
+    }, 500);
+    e.preventDefault();
+  } else {
+    error[2].parentElement.classList.remove('focus-error');
+    error[2].parentElement.classList.add('success');
+  }
 });
