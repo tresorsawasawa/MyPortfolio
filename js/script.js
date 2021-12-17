@@ -302,3 +302,4 @@ function showError(input) {
   const errorText = errorContainer.querySelector('div');
   errorText.innerHTML = `Please this '${input.name}' form is required`;
 }
+
