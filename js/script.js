@@ -326,7 +326,21 @@ function inputValidation() {
     success(inputName);
   }
 
-  
+  if (inputEmailValue === '') {
+    showError(inputEmail);
+    span.classList.remove('remove');
+    span.innerText = 'Invalid, Email is required';
+  } else if (!IsEmailValid) {
+    span.classList.remove('remove');
+    span.innerText = 'Kindly check your email';
+    span.style.color = '#d1220e';
+    const div = inputEmail.parentElement.querySelector('div');
+    div.innerText = 'Check your email please, the email should be VALID and in LOWERCASE';
+    div.style.color = '#d1220e';
+  } else {
+    span.classList.add('remove');
+    success(inputEmail);
+  }
 
   if (inputCommentValue === '') {
     showError(inputComment);
