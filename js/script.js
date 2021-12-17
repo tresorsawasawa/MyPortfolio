@@ -294,3 +294,11 @@ function putErrorContainer(input) {
 putErrorContainer(inputName);
 putErrorContainer(inputEmail);
 putErrorContainer(inputComment);
+
+// Implement Error message
+
+function showError(input) {
+  const errorContainer = input.parentElement;
+  const errorText = errorContainer.querySelector('div');
+  errorText.innerHTML = `Please this '${input.name}' form is required`;
+}
