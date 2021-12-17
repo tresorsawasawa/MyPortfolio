@@ -282,6 +282,7 @@ const contactForm = document.querySelector('.form-container');
 const inputName = document.querySelector('#name');
 const inputEmail = document.querySelector('#email');
 const inputComment = document.querySelector('#message');
+const data = [];
 
 function putErrorContainer(input) {
   const parent = input.parentElement;
@@ -356,6 +357,18 @@ function inputValidation() {
 const error = document.querySelectorAll('.error');
 
 contactForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  /* Start local storage process */
+  // setup my user list and store it in local storage
+  const users = {
+    name: inputName.value,
+    email: inputEmail.value,
+    comment: inputComment.value,
+  };
+  data.push(users);
+  localStorage.setItem('users', JSON.stringify(data));
+  /* End local storage process */
+  
   inputValidation();
   if (error[0].parentElement.innerText !== '') {
     error[0].parentElement.classList.add('anim-error');
