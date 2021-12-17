@@ -282,7 +282,7 @@ const contactForm = document.querySelector('.form-container');
 const inputName = document.querySelector('#name');
 const inputEmail = document.querySelector('#email');
 const inputComment = document.querySelector('#message');
-const myData = {};
+// const myData = {};
 
 function putErrorContainer(input) {
   const parent = input.parentElement;
@@ -357,9 +357,9 @@ function inputValidation() {
 const error = document.querySelectorAll('.error');
 
 contactForm.addEventListener('submit', (e) => {
-  myData.name = inputName.value;
-  myData.email = inputEmail.value;
-  myData.comment = inputComment.value;
+  // myData.name = inputName.value;
+  // myData.email = inputEmail.value;
+  // myData.comment = inputComment.value;
 
   inputValidation();
   if (error[0].parentElement.innerText !== '') {
