@@ -275,3 +275,22 @@ cards.forEach((card) => {
     html.classList.add('scrolHtml');
   });
 });
+
+// Client validation inputs
+
+// const contactForm = document.querySelector('.form-container');
+const inputName = document.querySelector('#name');
+const inputEmail = document.querySelector('#email');
+const inputComment = document.querySelector('#message');
+// const myData = {};
+
+function putErrorContainer(input) {
+  const parent = input.parentElement;
+  const div = document.createElement('div');
+  div.className = 'error';
+  parent.appendChild(div);
+}
+
+putErrorContainer(inputName);
+putErrorContainer(inputEmail);
+putErrorContainer(inputComment);
