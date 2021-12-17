@@ -349,3 +349,28 @@ function inputValidation() {
   }
 }
 
+const error = document.querySelectorAll('.error');
+
+contactForm.addEventListener('submit', (e) => {
+  myData.name = inputName.value;
+  myData.email = inputEmail.value;
+  myData.comment = inputComment.value;
+
+  inputValidation();
+  if (error[0].parentElement.innerText !== '') {
+    error[0].parentElement.classList.add('anim-error');
+    error[0].parentElement.classList.add('focus-error');
+    error[0].parentElement.classList.remove('success');
+
+    setTimeout(() => {
+      error[0].parentElement.classList.remove('anim-error');
+    }, 500);
+    e.preventDefault();
+  } else {
+    error[0].parentElement.classList.remove('focus-error');
+    error[0].parentElement.classList.add('success');
+  }
+  
+});
+
+
