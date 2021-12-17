@@ -282,7 +282,7 @@ const contactForm = document.querySelector('.form-container');
 const inputName = document.querySelector('#name');
 const inputEmail = document.querySelector('#email');
 const inputComment = document.querySelector('#message');
-const data = [];
+const data = JSON.parse(localStorage.getItem('users')) || [];
 
 function putErrorContainer(input) {
   const parent = input.parentElement;
