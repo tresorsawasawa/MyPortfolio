@@ -310,3 +310,28 @@ function success(input) {
   const div = parent.querySelector('div');
   div.innerHTML = '';
 }
+
+// Impement Validation function
+function inputValidation() {
+  const inputNameValue = inputName.value.trim();
+  const inputEmailValue = inputEmail.value.trim();
+  const inputCommentValue = inputComment.value.trim();
+
+  const emailText = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
+  const IsEmailValid = emailText.test(inputEmailValue);
+
+  if (inputNameValue === '') {
+    showError(inputName);
+  } else {
+    success(inputName);
+  }
+
+  
+
+  if (inputCommentValue === '') {
+    showError(inputComment);
+  } else {
+    success(inputComment);
+  }
+}
+
