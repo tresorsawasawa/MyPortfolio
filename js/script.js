@@ -278,11 +278,11 @@ cards.forEach((card) => {
 
 // Client validation inputs
 
-// const contactForm = document.querySelector('.form-container');
+const contactForm = document.querySelector('.form-container');
 const inputName = document.querySelector('#name');
 const inputEmail = document.querySelector('#email');
 const inputComment = document.querySelector('#message');
-// const myData = {};
+const myData = {};
 
 function putErrorContainer(input) {
   const parent = input.parentElement;
@@ -311,6 +311,12 @@ function success(input) {
   div.innerHTML = '';
 }
 
+const submitError = contactForm.querySelector('.submit-container');
+const span = document.createElement('span');
+span.className = 'submitError';
+submitError.appendChild(span);
+span.classList.add('error');
+
 // Impement Validation function
 function inputValidation() {
   const inputNameValue = inputName.value.trim();
@@ -325,7 +331,6 @@ function inputValidation() {
   } else {
     success(inputName);
   }
-
   if (inputEmailValue === '') {
     showError(inputEmail);
     span.classList.remove('remove');
@@ -370,7 +375,56 @@ contactForm.addEventListener('submit', (e) => {
     error[0].parentElement.classList.remove('focus-error');
     error[0].parentElement.classList.add('success');
   }
-  
+  if (error[1].parentElement.innerText !== '') {
+    error[1].parentElement.classList.add('anim-error');
+    error[1].parentElement.classList.add('focus-error');
+    error[1].parentElement.classList.remove('success');
+
+    setTimeout(() => {
+      error[1].parentElement.classList.remove('anim-error');
+    }, 500);
+    e.preventDefault();
+  } else {
+    error[1].parentElement.classList.remove('focus-error');
+    error[1].parentElement.classList.add('success');
+  }
+  if (error[2].parentElement.innerText !== '') {
+    error[2].parentElement.classList.add('anim-error');
+    error[2].parentElement.classList.add('focus-error');
+    error[2].parentElement.classList.remove('success');
+
+    setTimeout(() => {
+      error[2].parentElement.classList.remove('anim-error');
+    }, 500);
+    e.preventDefault();
+  } else {
+    error[2].parentElement.classList.remove('focus-error');
+    error[2].parentElement.classList.add('success');
+  }
+  if (error[1].parentElement.innerText !== '') {
+    error[1].parentElement.classList.add('anim-error');
+    error[1].parentElement.classList.add('focus-error');
+    error[1].parentElement.classList.remove('success');
+
+    setTimeout(() => {
+      error[1].parentElement.classList.remove('anim-error');
+    }, 500);
+    e.preventDefault();
+  } else {
+    error[1].parentElement.classList.remove('focus-error');
+    error[1].parentElement.classList.add('success');
+  }
+  if (error[2].parentElement.innerText !== '') {
+    error[2].parentElement.classList.add('anim-error');
+    error[2].parentElement.classList.add('focus-error');
+    error[2].parentElement.classList.remove('success');
+
+    setTimeout(() => {
+      error[2].parentElement.classList.remove('anim-error');
+    }, 500);
+    e.preventDefault();
+  } else {
+    error[2].parentElement.classList.remove('focus-error');
+    error[2].parentElement.classList.add('success');
+  }
 });
-
-
