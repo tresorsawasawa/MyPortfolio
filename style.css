@@ -617,7 +617,6 @@ button:focus {
 
 .success #message {
   border: 2px solid #00964b;
-  box-shadow: 1px 1px 10px rgba(7, 176, 100, 0.733);
   outline: none;
 }
 
