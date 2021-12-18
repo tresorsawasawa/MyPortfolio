@@ -429,3 +429,11 @@ contactForm.addEventListener('submit', (e) => {
     error[2].parentElement.classList.add('success');
   }
 });
+
+const inputData = localStorage.getItem('mydata');
+const savedData = JSON.parse(inputData);
+window.onload = () => {
+  inputName.value = savedData.name;
+  inputEmail.value = savedData.email;
+  inputComment.value = savedData.comment;
+};
