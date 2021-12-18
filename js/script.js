@@ -282,7 +282,6 @@ const contactForm = document.querySelector('.form-container');
 const inputName = document.querySelector('#name');
 const inputEmail = document.querySelector('#email');
 const inputComment = document.querySelector('#message');
-const data = {};
 
 function putErrorContainer(input) {
   const parent = input.parentElement;
@@ -357,11 +356,6 @@ function inputValidation() {
 const error = document.querySelectorAll('.error');
 
 contactForm.addEventListener('submit', (e) => {
-  data.name = inputName.value;
-  data.email = inputEmail.value;
-  data.comment = inputComment.value;
-  localStorage.setItem('mydata', JSON.stringify(data));
-
   inputValidation();
   if (error[0].parentElement.innerText !== '') {
     error[0].parentElement.classList.add('anim-error');
@@ -430,10 +424,30 @@ contactForm.addEventListener('submit', (e) => {
   }
 });
 
-const inputData = localStorage.getItem('mydata');
-const savedData = JSON.parse(inputData);
-window.onload = () => {
-  inputName.value = savedData.name;
-  inputEmail.value = savedData.email;
-  inputComment.value = savedData.comment;
-};
+// SAVE TO LOCAL STORAGE
+const clientName = document.getElementById('name');
+const clientEmail = document.getElementById('email');
+const clientMessage = document.getElementById('message');
+
+function useLocalStorage() {
+  const contactMessage = {
+    name: clientName.value,
+    email: clientEmail.value,
+    mail: clientMessage.value,
+  };
+  localStorage.setItem('contactMessage', JSON.stringify(contactMessage));
+}
+
+const formInput = document.querySelectorAll('input, textarea');
+for (let j = 0; j < formInput.length; j += 1) {
+  formInput[j].addEventListener('change', () => {
+    useLocalStorage();
+  });
+}
+
+const formData = JSON.parse(localStorage.getItem('contactMessage'));
+if (formData !== null) {
+  clientName.value = formData.name;
+  clientEmail.value = formData.email;
+  clientMessage.value = formData.mail;
+}
