@@ -433,7 +433,7 @@ function useLocalStorage() {
   const contactMessage = {
     name: clientName.value,
     email: clientEmail.value,
-    mail: clientMessage.value,
+    message: clientMessage.value,
   };
   localStorage.setItem('contactMessage', JSON.stringify(contactMessage));
 }
