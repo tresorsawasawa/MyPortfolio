@@ -58,7 +58,7 @@ const mobileData = [
     id: 'project3',
     secondTitle: "Tresor's Portfolio",
     images: {
-      img: './images/bg-image.png',
+      img: './images/movie-app.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
     techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
@@ -82,7 +82,7 @@ const mobileData = [
     id: 'project4',
     secondTitle: "Tresor's Portfolio",
     images: {
-      img: './images/bg-image.png',
+      img: './images/silidarty_Up.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
     techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
