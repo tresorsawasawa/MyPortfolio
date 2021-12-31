@@ -58,7 +58,7 @@ const mobileData = [
     id: 'project3',
     secondTitle: "Tresor's Portfolio",
     images: {
-      img: './images/bg-image.png',
+      img: './images/movie-app.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
     techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
@@ -67,12 +67,12 @@ const mobileData = [
       {
         icon: './images/icons/IconExport.svg',
         text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/MyPortfolio/',
+        live: 'https://tresorsawasawa.github.io/Movie-App/',
       },
       {
         text: 'See Source',
         icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/MyPortfolio',
+        live: 'https://github.com/tresorsawasawa/Movie-App',
       },
     ],
     paragraph:
@@ -82,7 +82,7 @@ const mobileData = [
     id: 'project4',
     secondTitle: "Tresor's Portfolio",
     images: {
-      img: './images/bg-image.png',
+      img: './images/silidarty_Up.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
     techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
@@ -91,12 +91,12 @@ const mobileData = [
       {
         icon: './images/icons/IconExport.svg',
         text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/MyPortfolio/',
+        live: 'https://tresorsawasawa.github.io/Solidarity-Capstone-project/',
       },
       {
         text: 'See Source',
         icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/MyPortfolio',
+        live: 'https://github.com/tresorsawasawa/Solidarity-Capstone-project',
       },
     ],
     paragraph:
