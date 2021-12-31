@@ -67,12 +67,12 @@ const mobileData = [
       {
         icon: './images/icons/IconExport.svg',
         text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/MyPortfolio/',
+        live: 'https://tresorsawasawa.github.io/Movie-App/',
       },
       {
         text: 'See Source',
         icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/MyPortfolio',
+        live: 'https://github.com/tresorsawasawa/Movie-App',
       },
     ],
     paragraph:
@@ -91,12 +91,12 @@ const mobileData = [
       {
         icon: './images/icons/IconExport.svg',
         text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/MyPortfolio/',
+        live: 'https://tresorsawasawa.github.io/Solidarity-Capstone-project/',
       },
       {
         text: 'See Source',
         icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/MyPortfolio',
+        live: 'https://github.com/tresorsawasawa/Solidarity-Capstone-project',
       },
     ],
     paragraph:
