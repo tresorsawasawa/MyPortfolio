@@ -416,6 +416,7 @@ button:focus {
   width: 100%;
   height: 100%;
   background-color: #ebf0ee;
+  opacity: 0.78;
 }
 
 .card .project-bg:hover {
