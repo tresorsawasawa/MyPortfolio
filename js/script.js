@@ -13,7 +13,7 @@ const mobileData = [
       img: './images/bg-image.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
+    techno: ['Javascript', 'Html', 'Css'],
     heading: "Tresor's Portfolio",
     list: [
       {
@@ -85,7 +85,7 @@ const mobileData = [
       img: './images/portflio1.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Html', 'Css', 'Javascript'],
+    techno: ['Javascript', 'Html', 'Css'],
     heading: "Tresor's Portfolio",
     list: [
       {
@@ -109,7 +109,7 @@ const mobileData = [
       img: './images/bg-image.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
+    techno: ['Javascript', 'Html', 'Css'],
     heading: "Tresor's Portfolio",
     list: [
       {
@@ -133,7 +133,7 @@ const mobileData = [
       img: './images/bg-image.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
+    techno: ['Javascript', 'Html', 'Css'],
     heading: "Tresor's Portfolio",
     list: [
       {
