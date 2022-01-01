@@ -10,34 +10,10 @@ const mobileData = [
     id: 'project1',
     secondTitle: "Tresor's Portfolio",
     images: {
-      img: './images/Portfolio2.png',
-      closePop: './images/icons/Close_icon_dark.png',
-    },
-    techno: ['Html', 'Css', 'Javascript'],
-    heading: "Tresor's Portfolio",
-    list: [
-      {
-        icon: './images/icons/IconExport.svg',
-        text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/My_Portfolio/',
-      },
-      {
-        text: 'See Source',
-        icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/My_Portfolio',
-      },
-    ],
-    paragraph:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus at illo explicabo voluptatum maiores eum exercitationem fugit? In, nobis asperiores!',
-  },
-  {
-    id: 'project2',
-    secondTitle: "Tresor's Portfolio",
-    images: {
       img: './images/bg-image.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
+    techno: ['Javascript', 'Html', 'Css'],
     heading: "Tresor's Portfolio",
     list: [
       {
@@ -52,16 +28,16 @@ const mobileData = [
       },
     ],
     paragraph:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus at illo explicabo voluptatum maiores eum exercitationem fugit? In, nobis asperiores!',
+      'This is my personal portfolio that descibes myself and what I can do; like  build products for the WEB, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.',
   },
   {
-    id: 'project3',
-    secondTitle: "Tresor's Portfolio",
+    id: 'project2',
+    secondTitle: 'Movie Infos App',
     images: {
       img: './images/movie-app.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
+    techno: ['Javascript', 'Css', 'Html', 'Boostrap'],
     heading: "Tresor's Portfolio",
     list: [
       {
@@ -76,16 +52,16 @@ const mobileData = [
       },
     ],
     paragraph:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      'Movie Infos App is a web page that, not only, can help you to track every movie and informations about the movie, but also it can help you be updated about popular and new movies',
   },
   {
-    id: 'project4',
-    secondTitle: "Tresor's Portfolio",
+    id: 'project3',
+    secondTitle: 'Solidarty Up!',
     images: {
-      img: './images/silidarty_Up.png',
+      img: './images/solidarity_up.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
+    techno: ['Javascript', 'Css', 'Html', 'Boostrap'],
     heading: "Tresor's Portfolio",
     list: [
       {
@@ -100,7 +76,31 @@ const mobileData = [
       },
     ],
     paragraph:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum consequatur officia cumque sit at voluptates, suscipit explicabo repudiandae fugit enim eveniet, perspiciatis voluptate debitis quasi odio recusandae quibusdam porro vel non iste. Neque alias voluptate exercitationem accusantium blanditiis veritatis incidunt aperiam, veniam ex facere cum autem tenetur, repudiandae rem sint.',
+      'Solidarity Up is a web page of simple facts that would be better to be practiced in our everyday life in the aim of making people aware of helping others, Reminding everyone to understand their value in society, Understand that you can help others regardless of the field and these will help to make world better.',
+  },
+  {
+    id: 'project4',
+    secondTitle: "Tresor's Portfolio1",
+    images: {
+      img: './images/portflio1.png',
+      closePop: './images/icons/Close_icon_dark.png',
+    },
+    techno: ['Javascript', 'Html', 'Css'],
+    heading: "Tresor's Portfolio",
+    list: [
+      {
+        icon: './images/icons/IconExport.svg',
+        text: 'See Live',
+        live: 'https://tresorsawasawa.github.io/My_Portfolio/',
+      },
+      {
+        text: 'See Source',
+        icon: './images/icons/IconGitHub.svg',
+        live: 'https://github.com/tresorsawasawa/My_Portfolio',
+      },
+    ],
+    paragraph:
+    'This is my personal portfolio that descibes myself and what I can do; like  build products for the WEB, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.',
   },
   {
     id: 'project5',
@@ -109,7 +109,7 @@ const mobileData = [
       img: './images/bg-image.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
+    techno: ['Javascript', 'Html', 'Css'],
     heading: "Tresor's Portfolio",
     list: [
       {
@@ -124,7 +124,7 @@ const mobileData = [
       },
     ],
     paragraph:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus at illo explicabo voluptatum maiores eum exercitationem fugit? In, nobis asperiores!',
+    'This is my personal portfolio that descibes myself and what I can do; like  build products for the WEB, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.',
   },
   {
     id: 'project6',
@@ -133,7 +133,7 @@ const mobileData = [
       img: './images/bg-image.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
+    techno: ['Javascript', 'Html', 'Css'],
     heading: "Tresor's Portfolio",
     list: [
       {
@@ -148,7 +148,7 @@ const mobileData = [
       },
     ],
     paragraph:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus at illo explicabo voluptatum maiores eum exercitationem fugit? In, nobis asperiores!',
+    'This is my personal portfolio that descibes myself and what I can do; like  build products for the WEB, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.',
   },
 ];
 let project = 1;
