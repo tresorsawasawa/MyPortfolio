@@ -7,31 +7,7 @@ const CardContainer = document.querySelector('.card-container');
 const mobileData = [
   // Array of data implenented in the popup window
   {
-    id: '1',
-    secondTitle: 'Awesome Books',
-    images: {
-      img: './images/bg-image.png',
-      closePop: './images/icons/Close_icon_dark.png',
-    },
-    techno: ['Javascript', 'Html', 'Css', 'Boostrap'],
-    heading: "Tresor's Portfolio",
-    list: [
-      {
-        icon: './images/icons/IconExport.svg',
-        text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/Awesome_books/',
-      },
-      {
-        text: 'See Source',
-        icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/Awesome_books',
-      },
-    ],
-    paragraph:
-    '"Awesome books" is a simple website that displays a list of books and allows you to add, remove books from that list and store your books list in your browser local storage.',
-  },
-  {
-    id: 'project2',
+    id: 'project1',
     secondTitle: "Tresor's Portfolio",
     images: {
       img: './images/bg-image.png',
@@ -53,6 +29,30 @@ const mobileData = [
     ],
     paragraph:
       'This is my personal portfolio that descibes myself and what I can do; like  build products for the WEB, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.',
+  },
+  {
+    id: 'project2',
+    secondTitle: 'Awesome Books',
+    images: {
+      img: './images/Desktop-screenshot.png',
+      closePop: './images/icons/Close_icon_dark.png',
+    },
+    techno: ['Javascript', 'Html', 'Css', 'Boostrap'],
+    heading: "Tresor's Portfolio",
+    list: [
+      {
+        icon: './images/icons/IconExport.svg',
+        text: 'See Live',
+        live: 'https://tresorsawasawa.github.io/Awesome_books/',
+      },
+      {
+        text: 'See Source',
+        icon: './images/icons/IconGitHub.svg',
+        live: 'https://github.com/tresorsawasawa/Awesome_books',
+      },
+    ],
+    paragraph:
+    '"Awesome books" is a simple website that displays a list of books and allows you to add, remove books from that list and store your books list in your browser local storage.',
   },
   {
     id: 'project3',
@@ -249,7 +249,7 @@ mobileData.forEach((asection) => {
 mobileData.forEach((asection) => {
   const list = document.createElement('li');
   list.innerHTML = `<div class="card">
-  <div class="image"><div class="project-bg"></div><img class="project-img" src='${asection.images.img}'></div>
+  <div class="image"><div class="project-bg"></div><img class="project-img" src='${asection.images.img}' alt="${asection.secondTitle} Project screenshot"></div>
     <div class="card-info">
       <h2>${asection.secondTitle}</h2>
       <ul class="card-buttons">
