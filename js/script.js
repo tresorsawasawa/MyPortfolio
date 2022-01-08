@@ -7,7 +7,31 @@ const CardContainer = document.querySelector('.card-container');
 const mobileData = [
   // Array of data implenented in the popup window
   {
-    id: 'project1',
+    id: '1',
+    secondTitle: 'Awesome Books',
+    images: {
+      img: './images/bg-image.png',
+      closePop: './images/icons/Close_icon_dark.png',
+    },
+    techno: ['Javascript', 'Html', 'Css', 'Boostrap'],
+    heading: "Tresor's Portfolio",
+    list: [
+      {
+        icon: './images/icons/IconExport.svg',
+        text: 'See Live',
+        live: 'https://tresorsawasawa.github.io/Awesome_books/',
+      },
+      {
+        text: 'See Source',
+        icon: './images/icons/IconGitHub.svg',
+        live: 'https://github.com/tresorsawasawa/Awesome_books',
+      },
+    ],
+    paragraph:
+    '"Awesome books" is a simple website that displays a list of books and allows you to add, remove books from that list and store your books list in your browser local storage.',
+  },
+  {
+    id: 'project2',
     secondTitle: "Tresor's Portfolio",
     images: {
       img: './images/bg-image.png',
@@ -31,7 +55,7 @@ const mobileData = [
       'This is my personal portfolio that descibes myself and what I can do; like  build products for the WEB, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.',
   },
   {
-    id: 'project2',
+    id: 'project3',
     secondTitle: 'Movie Infos App',
     images: {
       img: './images/movie-app.png',
@@ -55,7 +79,7 @@ const mobileData = [
       'Movie Infos App is a web page that, not only, can help you to track every movie and informations about the movie, but also it can help you be updated about popular and new movies',
   },
   {
-    id: 'project3',
+    id: 'project4',
     secondTitle: 'Solidarty Up!',
     images: {
       img: './images/solidarity_up.png',
@@ -79,8 +103,8 @@ const mobileData = [
       'Solidarity Up is a web page of simple facts that would be better to be practiced in our everyday life in the aim of making people aware of helping others, Reminding everyone to understand their value in society, Understand that you can help others regardless of the field and these will help to make world better.',
   },
   {
-    id: 'project4',
-    secondTitle: "Tresor's Portfolio1",
+    id: 'project5',
+    secondTitle: 'MyPortfolio',
     images: {
       img: './images/portflio1.png',
       closePop: './images/icons/Close_icon_dark.png',
@@ -97,30 +121,6 @@ const mobileData = [
         text: 'See Source',
         icon: './images/icons/IconGitHub.svg',
         live: 'https://github.com/tresorsawasawa/My_Portfolio',
-      },
-    ],
-    paragraph:
-    'This is my personal portfolio that descibes myself and what I can do; like  build products for the WEB, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.',
-  },
-  {
-    id: 'project5',
-    secondTitle: "Tresor's Portfolio",
-    images: {
-      img: './images/bg-image.png',
-      closePop: './images/icons/Close_icon_dark.png',
-    },
-    techno: ['Javascript', 'Html', 'Css'],
-    heading: "Tresor's Portfolio",
-    list: [
-      {
-        icon: './images/icons/IconExport.svg',
-        text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/MyPortfolio/',
-      },
-      {
-        text: 'See Source',
-        icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/MyPortfolio',
       },
     ],
     paragraph:
