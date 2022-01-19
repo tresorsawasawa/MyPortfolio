@@ -106,7 +106,7 @@ const mobileData = [
     id: 'project5',
     secondTitle: 'MyPortfolio',
     images: {
-      img: './images/portflio1.png',
+      img: './images/Portfoli1_Screenshot.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
     techno: ['Javascript', 'Html', 'Css'],
@@ -128,27 +128,27 @@ const mobileData = [
   },
   {
     id: 'project6',
-    secondTitle: "Tresor's Portfolio",
+    secondTitle: 'Todo List App',
     images: {
-      img: './images/bg-image.png',
+      img: './images/Todo_Screenshot.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Javascript', 'Html', 'Css'],
+    techno: ['Javascript', 'Html', 'Css', 'Webpack'],
     heading: "Tresor's Portfolio",
     list: [
       {
         icon: './images/icons/IconExport.svg',
         text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/MyPortfolio/',
+        live: 'https://tresorsawasawa.github.io/Todo_List_App/',
       },
       {
         text: 'See Source',
         icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/MyPortfolio',
+        live: 'https://github.com/tresorsawasawa/Todo_List_App',
       },
     ],
     paragraph:
-    'This is my personal portfolio that descibes myself and what I can do; like  build products for the WEB, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.',
+    "A To-do list is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. And by prioritizing tasks, you plan the order in which you'll do them so that you can tell what needs your immediate attention, and what you can leave until later.",
   },
 ];
 let project = 1;
