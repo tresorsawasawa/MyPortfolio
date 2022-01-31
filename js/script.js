@@ -8,27 +8,27 @@ const mobileData = [
   // Array of data implenented in the popup window
   {
     id: 'project1',
-    secondTitle: "Tresor's Portfolio",
+    secondTitle: 'Leaderboard',
     images: {
-      img: './images/bg-image.png',
+      img: './images/leaderboard.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Javascript', 'Html', 'Css'],
-    heading: "Tresor's Portfolio",
+    techno: ['JavaScript', 'HTML', 'SCSS', 'Webpack'],
+    heading: 'Leaderboard',
     list: [
       {
         icon: './images/icons/IconExport.svg',
         text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/MyPortfolio/',
+        live: 'https://tresorsawasawa.github.io/Leaderboard_App/dist/',
       },
       {
         text: 'See Source',
         icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/MyPortfolio',
+        live: 'https://github.com/tresorsawasawa/Leaderboard_App',
       },
     ],
     paragraph:
-      'This is my personal portfolio that descibes myself and what I can do; like  build products for the WEB, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.',
+      '"Leaderboard" is a website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
   },
   {
     id: 'project2',
@@ -37,8 +37,8 @@ const mobileData = [
       img: './images/Desktop-screenshot.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Javascript', 'Html', 'Css', 'Boostrap'],
-    heading: "Tresor's Portfolio",
+    techno: ['JavaScript', 'HTML', 'CSS', 'Boostrap'],
+    heading: 'Awesome Books',
     list: [
       {
         icon: './images/icons/IconExport.svg',
@@ -61,8 +61,8 @@ const mobileData = [
       img: './images/movie-app.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Javascript', 'Css', 'Html', 'Boostrap'],
-    heading: "Tresor's Portfolio",
+    techno: ['JavaScript', 'HTML', 'CSS', 'Boostrap'],
+    heading: 'Movie Infos App',
     list: [
       {
         icon: './images/icons/IconExport.svg',
@@ -85,8 +85,8 @@ const mobileData = [
       img: './images/solidarity_up.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Javascript', 'Css', 'Html', 'Boostrap'],
-    heading: "Tresor's Portfolio",
+    techno: ['JavaScript', 'HTML', 'CSS', 'Boostrap'],
+    heading: 'Solidarty Up!',
     list: [
       {
         icon: './images/icons/IconExport.svg',
@@ -134,7 +134,7 @@ const mobileData = [
       closePop: './images/icons/Close_icon_dark.png',
     },
     techno: ['Javascript', 'Html', 'Css', 'Webpack'],
-    heading: "Tresor's Portfolio",
+    heading: 'Todo List App',
     list: [
       {
         icon: './images/icons/IconExport.svg',
@@ -273,6 +273,7 @@ cards.forEach((card) => {
     const displaySection = sections.filter((section) => section.id === button.id);
     main.appendChild(displaySection[0]);
     html.classList.add('scrolHtml');
+    document.body.style.overflow = 'hidden';
   });
 });
 
