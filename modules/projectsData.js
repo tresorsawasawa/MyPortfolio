@@ -1,5 +1,4 @@
 const projectsData = [
-  // Array of data implenented in the popup window
   {
     id: 'project1',
     secondTitle: 'Leaderboard',
@@ -31,7 +30,7 @@ const projectsData = [
       img: './images/Desktop-screenshot.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['JavaScript', 'HTML', 'CSS', 'Boostrap'],
+    techno: ['JavaScript', 'HTML', 'CSS', 'Bootstrap'],
     heading: 'Awesome Books',
     list: [
       {
@@ -55,7 +54,7 @@ const projectsData = [
       img: './images/movie-app.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['JavaScript', 'HTML', 'CSS', 'Boostrap'],
+    techno: ['JavaScript', 'HTML', 'CSS', 'Bootstrap'],
     heading: 'Movie Infos App',
     list: [
       {
@@ -70,17 +69,17 @@ const projectsData = [
       },
     ],
     paragraph:
-      'Movie Infos App is a web page that, not only, can help you to track every movie and informations about the movie, but also it can help you be updated about popular and new movies',
+      'Movie Infos App is a web page that, not only, can help you to track every movie and information about the movie, but also it can help you be updated about popular and new movies',
   },
   {
     id: 'project4',
-    secondTitle: 'Solidarty Up!',
+    secondTitle: 'Solidarity Up!',
     images: {
       img: './images/solidarity_up.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['JavaScript', 'HTML', 'CSS', 'Boostrap'],
-    heading: 'Solidarty Up!',
+    techno: ['JavaScript', 'HTML', 'CSS', 'Bootstrap'],
+    heading: 'Solidarity Up!',
     list: [
       {
         icon: './images/icons/IconExport.svg',
@@ -118,7 +117,7 @@ const projectsData = [
       },
     ],
     paragraph:
-    'This is my personal portfolio that describes myself and what I can do; like  build products for the WEB, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.',
+    'This is my personal portfolio that describes myself and what I can do; like  build products for the WEB, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.',
   },
   {
     id: 'project6',
