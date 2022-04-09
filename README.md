@@ -21,7 +21,7 @@ Mobile version | Desktop
 ## Get Started
 
 To get the content of this project locally you need to run the following commands in your terminal.
-Before, make sure you have [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/) and [Node.js](https://nodejs.dev/learn/how-to-install-nodejs) installed in your computer.
+Before, make sure you have [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/) installed in your computer.
 
 1. Download the **Zip** file or clone the repo with ` git clone https://github.com/tresorsawasawa/MyPortfolio.git `.
 2. `cd MyPortfolio `
@@ -45,7 +45,6 @@ Before, make sure you have [Git](https://www.linode.com/docs/guides/how-to-insta
 - Twitter: [@elemenoun](https://twitter.com/elemenoun)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/fatima-ezzahra-elemenoun-020841225/)
 
-## Author-2
 
 👤 **Josphat Nkonde**
 
