@@ -85,7 +85,7 @@ const projectsData = [
       {
         icon: './images/icons/IconExport.svg',
         text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/Solidarity-Capstone-project/',
+        live: 'https://tresorsawasawa.github.io/Solidarity-Up/',
       },
       {
         text: 'See Source',
