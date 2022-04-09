@@ -1,27 +1,27 @@
 const projectsData = [
   {
     id: 'project1',
-    secondTitle: 'Leaderboard',
+    secondTitle: 'Stock Metrics',
     images: {
-      img: './images/leaderboard.png',
+      img: './images/stock_metrics.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['JavaScript', 'HTML', 'SCSS', 'Webpack'],
-    heading: 'Leaderboard',
+    techno: ['React', 'Redux', 'JavaScript', 'HTML', 'Sass'],
+    heading: 'Stock Metrics',
     list: [
       {
         icon: './images/icons/IconExport.svg',
         text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/Leaderboard_App/dist/',
+        live: 'https://tresorsawasawa.github.io/Stock_Metrics/',
       },
       {
         text: 'See Source',
         icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/Leaderboard_App',
+        live: 'https://github.com/tresorsawasawa/Stock_Metrics',
       },
     ],
     paragraph:
-      '"Leaderboard" is a website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
+      '"Stock Metrics" is a website that allows users to track list of all traded and non-traded stocks within the Financial Modeling Prep API. Symbol, name, price are all included for each company on the list.',
   },
   {
     id: 'project2',
@@ -49,27 +49,27 @@ const projectsData = [
   },
   {
     id: 'project3',
-    secondTitle: 'Movie Infos App',
+    secondTitle: 'Leaderboard',
     images: {
-      img: './images/movie-app.png',
+      img: './images/leaderboard.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['JavaScript', 'HTML', 'CSS', 'Bootstrap'],
-    heading: 'Movie Infos App',
+    techno: ['JavaScript', 'HTML', 'Sass', 'Webpack'],
+    heading: 'Leaderboard',
     list: [
       {
         icon: './images/icons/IconExport.svg',
         text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/Movie-App/',
+        live: 'https://tresorsawasawa.github.io/Leaderboard_App/dist/',
       },
       {
         text: 'See Source',
         icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/Movie-App',
+        live: 'https://github.com/tresorsawasawa/Leaderboard_App',
       },
     ],
     paragraph:
-      'Movie Infos App is a web page that, not only, can help you to track every movie and information about the movie, but also it can help you be updated about popular and new movies',
+      '"Leaderboard" is a website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
   },
   {
     id: 'project4',
@@ -97,47 +97,47 @@ const projectsData = [
   },
   {
     id: 'project5',
-    secondTitle: 'MyPortfolio',
+    secondTitle: 'Movie Infos App',
     images: {
-      img: './images/Portfoli1_Screenshot.png',
+      img: './images/movie-app.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Javascript', 'Html', 'Css'],
-    heading: "Tresor's Portfolio",
+    techno: ['JavaScript', 'HTML', 'CSS', 'Bootstrap'],
+    heading: 'Movie Infos App',
     list: [
       {
         icon: './images/icons/IconExport.svg',
         text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/My_Portfolio/',
+        live: 'https://tresorsawasawa.github.io/Movie-App/',
       },
       {
         text: 'See Source',
         icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/My_Portfolio',
+        live: 'https://github.com/tresorsawasawa/Movie-App',
       },
     ],
     paragraph:
-    'This is my personal portfolio that describes myself and what I can do; like  build products for the WEB, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.',
+      'Movie Infos App is a web page that, not only, can help you to track every movie and information about the movie, but also it can help you be updated about popular and new movies',
   },
   {
     id: 'project6',
     secondTitle: 'Todo List App',
     images: {
-      img: './images/Todo_Screenshot.png',
+      img: './images/react-todo-app.png',
       closePop: './images/icons/Close_icon_dark.png',
     },
-    techno: ['Javascript', 'Html', 'Css', 'Webpack'],
+    techno: ['React', 'Javascript', 'Html', 'Sass', 'Webpack'],
     heading: 'Todo List App',
     list: [
       {
         icon: './images/icons/IconExport.svg',
         text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/Todo_List_App/',
+        live: 'https://tresorsawasawa.github.io/react-todo-app/',
       },
       {
         text: 'See Source',
         icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/Todo_List_App',
+        live: 'https://github.com/tresorsawasawa/react-todo-app',
       },
     ],
     paragraph:
