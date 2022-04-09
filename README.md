@@ -65,7 +65,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Thank You [Microverse](www.microverse.org) team that help me with the template of this project.
-- Thanks to everyone who will get time to check this code and sugest any [issue](https://github.com/tresorsawasawa/MyPortfolio/issues) to improve the page.
+- Thanks to everyone who will get time to check this code and suggest any [issue](https://github.com/tresorsawasawa/MyPortfolio/issues) to improve the page.
 
 ## 📝 License
 
