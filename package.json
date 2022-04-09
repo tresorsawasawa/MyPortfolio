@@ -28,5 +28,7 @@
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "postcss": "^8.4.12"
+  }
 }
