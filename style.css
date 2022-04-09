@@ -749,7 +749,7 @@ textarea::placeholder {
   width: 100%;
   position: absolute;
   top: 0;
-  min-height: 230vh;
+  min-height: 250vh;
 }
 
 .closePop {
@@ -842,7 +842,7 @@ textarea::placeholder {
   color: #344563;
 }
 
-/* --- Desketop version---- */
+/* --- Desktop version---- */
 
 @media screen and (min-width: 920px) {
   /* ----Start Popup window ---- */
@@ -979,6 +979,7 @@ textarea::placeholder {
     background-position: top right, bottom 25px left;
     background-repeat: no-repeat, no-repeat;
     height: 280px;
+    padding-top: 80px;
   }
 
   .about img {
