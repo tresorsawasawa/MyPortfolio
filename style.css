@@ -39,7 +39,7 @@ button:focus {
   width: auto;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 1px 1px 30px rgba(197, 196, 196, 0.267);
+  box-shadow: 1px 1px 7px rgba(78, 72, 72, 0.267);
 }
 
 .header h2 {
@@ -125,7 +125,7 @@ button:focus {
 .about h2:hover,
 .title-cont h2:hover,
 .nav-bar-list li:hover {
-  transform: translate(0, -5px);
+  transform: scale(1.15);
   transition: all 0.5s ease;
 }
 
@@ -182,7 +182,7 @@ button:focus {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 20px;
   color: #344563;
   text-decoration: none;
@@ -328,6 +328,11 @@ button:focus {
 
 .popImgContainer img {
   width: 100%;
+  padding-top: 40px;
+}
+
+.popImgContainer .close-icon {
+  padding-top: 0;
 }
 
 .works-section .title img {
@@ -409,7 +414,7 @@ button:focus {
   align-items: center;
 }
 
-.card .project-bg {
+/* .card .project-bg {
   position: absolute;
   top: 0;
   z-index: 2;
@@ -423,7 +428,7 @@ button:focus {
   background-color: transparent;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
-}
+} */
 
 .card-see {
   background-color: #1e488f;
@@ -739,32 +744,31 @@ textarea::placeholder {
 }
 
 .filterBackground {
-  background: transparent;
+  background: #c1c7d0;
   z-index: -100;
   width: 100%;
-  opacity: 0.8;
   position: absolute;
   top: 0;
-  height: 130vh;
+  min-height: 250vh;
 }
 
 .closePop {
   z-index: 999;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   position: absolute;
-  right: 22px;
-  top: 22px;
-  background: #ebecf0;
+  right: 0;
+  top: -20px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  border: 2px solid #67798e;
+  border: 2px solid #29313a;
 }
 
 .closePop:hover {
   cursor: pointer;
+  transform: scale(1.08);
 }
 
 .popupWindow .popupContainer {
@@ -838,7 +842,7 @@ textarea::placeholder {
   color: #344563;
 }
 
-/* --- Desketop version---- */
+/* --- Desktop version---- */
 
 @media screen and (min-width: 920px) {
   /* ----Start Popup window ---- */
@@ -975,6 +979,7 @@ textarea::placeholder {
     background-position: top right, bottom 25px left;
     background-repeat: no-repeat, no-repeat;
     height: 280px;
+    padding-top: 80px;
   }
 
   .about img {
