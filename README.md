@@ -23,7 +23,7 @@ Mobile version | Desktop
 To get the content of this project locally you need to run the following commands in your terminal.
 Before, make sure you have [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/) and [Node.js](https://nodejs.dev/learn/how-to-install-nodejs) installed in your computer.
 
-1. Download the **Zip** file or clone the Repo with ` git clone https://github.com/tresorsawasawa/Solidarity-Up.git `.
+1. Download the **Zip** file or clone the repo with ` git clone https://github.com/tresorsawasawa/MyPortfolio.git `.
 2. `cd MyPortfolio `
 3. Open it with the live server
 
