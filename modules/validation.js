@@ -45,7 +45,7 @@ const inputValidation = () => {
     span.innerText = 'Kindly Check Your Email';
     span.style.color = '#d1220e';
     const div = inputEmail.parentElement.querySelector('div');
-    div.innerText = 'Check your email please, the email should be VALID and in LOWERCASE';
+    div.innerText = 'Check our email please, the email should be VALID and in LOWERCASE';
     div.style.color = '#d1220e';
   } else {
     span.classList.add('remove');

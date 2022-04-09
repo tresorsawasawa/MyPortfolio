@@ -76,6 +76,7 @@ projectsData.forEach((asection) => {
     setTimeout(() => {
       html.classList.remove('anim-popup');
       html.classList.remove('scrollHtml');
+      html.style.overflow = 'scroll';
       main.removeChild(child);
     }, 500);
   });
@@ -117,6 +118,7 @@ cards.forEach((card) => {
     );
     main.appendChild(displaySection[0]);
     html.classList.add('scrolHtml');
+    html.style.overflow = 'hidden';
     document.body.style.overflow = 'hidden';
   });
 });
