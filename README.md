@@ -27,8 +27,8 @@ Mobile version | Desktop
 To get the content of this project locally you need to run the following commands in your terminal.
 
 ### Prerequisites
--IDE(code editor) like: **Vscode**, **Sublime**, etc. 
--[Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+- IDE(code editor) like: **Vscode**, **Sublime**, etc. 
+- [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
 
 ### Setup
 1. Download the **Zip** file or clone the repo with:
