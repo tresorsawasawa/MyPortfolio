@@ -40,7 +40,7 @@ git clone https://github.com/tresorsawasawa/MyPortfolio.git
 ```bash
 cd MyPortfolio
 ```
-5. Open it with the live server
+3. Open it with the live server
 
 ### Install
 > To install linters and other project's dependencies run:
