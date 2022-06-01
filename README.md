@@ -25,7 +25,6 @@ Mobile version | Desktop
 ## Get Started
 
 To get the content of this project locally you need to run the following commands in your terminal.
-Before, make sure you have installed in your computer.
 
 ### Prerequisites
 -IDE like: **Vscode**, **Sublime**,etc. 
