@@ -25,7 +25,7 @@
       <span id="humburger"><i class="fa humburger fa-bars fa-2x humb-mob"></i></span>
       <img id="close-menu" class="close-menu" src="./images/icons/Close_icon.png" alt="Close menu icon">
       <ul class="nav-bar-list mob-list">
-        <li><a href="#home" aria-label="item1">Portfolio</a></li>
+        <li><a href="#works" aria-label="item1">Portfolio</a></li>
         <li><a href="#about" aria-label="item2">About</a></li>
         <li><a href="#contact" aria-label="item3">Contact</a></li>
       </ul>
@@ -73,13 +73,13 @@
         </ul>
       </div>
       <div class="scroll">
-        <a href="#email-link">
+        <a href="#works">
           <img src="./images/icons/Disabled.png" alt="scrollicondwop" />
         </a>
       </div>
     </section>
 
-    <section class="works-section">
+    <section id="works" class="works-section">
       <div class="title">
         <h2>My Recent Works</h2>
         <img src="./images/icons/Indicator.png" alt="icon" />
@@ -90,14 +90,20 @@
     <section class="about-langues">
       <div id="about" class="about">
         <h2>About me</h2>
-        <p>
+        <p>button
           I can help you build a product , feature or website Look through
           some of my work and experience! If you like what you see and have a
           project you need coded, don’t hesitate to contact me.
         </p>
-        <button type="button" class="card-see get button-gren">
-          Get My Resume
-        </button>
+        <a
+          href="https://s3.amazonaws.com/attachments.angel.co/7178556-6d435b349e349873c63f5b31455131fd.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJS6W3HGZGRJIRBTA%2F20220723%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220723T152322Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2c42e9ba45b92a50ddbe6eae294d2f9b5eae008718ed5db3b9a73e7a7679e1d5" 
+          class="card-see get button-gren"
+          target="_blank"
+          rel="noopener noreferrer" 
+          aria-label="Resume link"
+        >
+          Check Out My Resume
+        </a>
       </div>
       <ul class="langues">
         <li class="langag-content ">
@@ -172,7 +178,7 @@
 
         </div>
         <div class="submit-container">
-          <button type="submit" class="get-in-touch-btn card-see">Get in touch</button>
+          <button type="submit" class="get-in-touch-btn card-see">Get In Touch</button>
         </div>
       </form>
     </div>
