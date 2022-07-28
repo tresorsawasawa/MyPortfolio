@@ -1,6 +1,30 @@
 const projectsData = [
   {
     id: 'project1',
+    secondTitle: 'My Budget',
+    images: {
+      img: './images/My_Budget.png',
+      closePop: './images/icons/Close_icon_dark.png',
+    },
+    techno: ['Ruby', 'Ruby on Rails', 'JavaScript', 'Sass'],
+    heading: 'My Budget',
+    list: [
+      {
+        icon: './images/icons/IconExport.svg',
+        text: 'See Live',
+        live: 'https://github.com/tresorsawasawa/Budget_app',
+      },
+      {
+        text: 'See Source',
+        icon: './images/icons/IconGitHub.svg',
+        live: 'https://github.com/tresorsawasawa/Budget_app',
+      },
+    ],
+    paragraph:
+      'The "My Budget" is a mobile web application which helps users to manage their budget. It has features of listing transactions associated on a category and with the app you can see how much money you spent on that category',
+  },
+  {
+    id: 'project2',
     secondTitle: 'Stock Metrics',
     images: {
       img: './images/stock_metrics.png',
@@ -24,7 +48,7 @@ const projectsData = [
       '"Stock Metrics" is a website that allows users to track list of all traded and non-traded stocks within the Financial Modeling Prep API. Symbol, name, price are all included for each company on the list.',
   },
   {
-    id: 'project2',
+    id: 'project3',
     secondTitle: 'Awesome Books',
     images: {
       img: './images/Desktop-screenshot.png',
@@ -46,30 +70,6 @@ const projectsData = [
     ],
     paragraph:
     '"Awesome books" is a simple website that displays a list of books and allows you to add, remove books from that list and store your books list in your browser local storage.',
-  },
-  {
-    id: 'project3',
-    secondTitle: 'Leaderboard',
-    images: {
-      img: './images/leaderboard.png',
-      closePop: './images/icons/Close_icon_dark.png',
-    },
-    techno: ['JavaScript', 'HTML', 'Sass', 'Webpack'],
-    heading: 'Leaderboard',
-    list: [
-      {
-        icon: './images/icons/IconExport.svg',
-        text: 'See Live',
-        live: 'https://tresorsawasawa.github.io/Leaderboard_App/dist/',
-      },
-      {
-        text: 'See Source',
-        icon: './images/icons/IconGitHub.svg',
-        live: 'https://github.com/tresorsawasawa/Leaderboard_App',
-      },
-    ],
-    paragraph:
-      '"Leaderboard" is a website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
   },
   {
     id: 'project4',
