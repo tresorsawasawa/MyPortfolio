@@ -14,7 +14,7 @@ Mobile version | Desktop
 
 ## Built With
 
-- HTML
+- HTML 
 - CSS
 - JavaScript
 
